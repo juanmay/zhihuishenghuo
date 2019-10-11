@@ -1,0 +1,88 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+
+    {if (session("user.id")=="10000") }
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">用户手机</label>
+        <div class="layui-input-inline">
+            <input name="phone" value="{$Think.get.phone}" placeholder="请输入用户手机" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">用户姓名</label>
+        <div class="layui-input-inline">
+            <input name="realname" value="{$Think.get.realname}" placeholder="请输入用户姓名" class="layui-input">
+        </div>
+    </div>
+
+    {/if}
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">反馈时间</label>
+        <div class="layui-input-inline">
+            <input name="add_time" data-time value="{$Think.get.add_time}" placeholder="请选择反馈时间" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<script>
+    window.form.render();
+    $('[data-time]').map(function () {
+        window.laydate.render({range: true, elem: this});
+    });
+</script>
+<!-- 表单搜索 结束 -->
+
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    {if empty($list)}
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    {else}
+    <table class="layui-table" lay-size="sm">
+        <thead>
+        <tr>
+            <th class='list-table-check-td think-checkbox'>
+                <input data-auto-none="none" data-check-target='.list-check-box' type='checkbox'/>
+            </th>
+            {if (session("user.id")=="10000") }
+            <th class="text-center nowrap">用户手机</th>
+            <th class="text-center nowrap">用户姓名</th>
+            {/if}
+            <th class="text-center nowrap">所属推广</th>
+            <th class="text-center nowrap">留言手机</th>
+            <th class="text-center nowrap">留言姓名</th>
+            <th class="text-center nowrap">留言内容</th>
+            <th class="text-center nowrap">时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class='list-table-check-td text-top think-checkbox'>
+                <input class="list-check-box" value='{$vo.id}' type='checkbox'/>
+            </td>
+            {if (session("user.id")=="10000") }
+            <td class="text-center nowrap">{$vo.mphone}</td>
+            <td class="text-center nowrap">{$vo.mrealname}</td>
+            {/if}
+            <td class="text-center nowrap">{$vo.title}</td>
+            <td class="text-center nowrap">{$vo.phone}</td>
+            <td class="text-center nowrap">{$vo.realname}</td>
+
+            <td class="text-center nowrap">{$vo.content}</td>
+            <td class="text-center nowrap">{$vo.add_time}</td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    {/if}
+</form>
+
+{/block}

@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2019-10-08T19:16:12+08:00 ] 115.196.201.245 GET app.ddxx159.com/index/common/register/code/HYqZPN.html
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:526]

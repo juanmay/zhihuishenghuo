@@ -1,0 +1,94 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+
+<table class="layui-table" lay-even lay-skin="line">
+    <colgroup>
+        <col width="20%">
+        <col width="30%">
+        <col width="20%">
+        <col width="30%">
+    </colgroup>
+    <thead>
+    <tr>
+        <th class="text-left" colspan="2">系统信息</th>
+        <th class="text-left" colspan="2">产品团队</th>
+    </tr>
+    </thead>
+    <tbody>
+    {if (session("user.id")=="10000") }
+    <tr>
+        <td class="nowrap">ThinkPHP 版本</td>
+        <td class="nowrap">{$think_ver}</td>
+        <td class="nowrap">产品名称</td>
+        <td class="nowrap">信用卡代还系统</td>
+    </tr>
+    <tr>
+        <td class="nowrap">服务器操作系统</td>
+        <td class="nowrap">{:php_uname('s')}</td>
+        <td class="nowrap">WEB运行环境</td>
+        <td class="nowrap">{:php_sapi_name()}</td>
+    </tr>
+    <tr>
+        <td class="nowrap">MySQL数据库版本</td>
+        <td class="nowrap">{$mysql_ver}</td>
+        <td class="nowrap">BUG反馈</td>
+        <td class="nowrap">
+            <a target="_blank" href="http://diyunkeji.com">
+                http://diyunkeji.com
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td class="nowrap">运行PHP版本</td>
+        <td class="nowrap">{$Think.PHP_VERSION}</td>
+        <td class="nowrap">上传大小限制</td>
+        <td class="nowrap">{:ini_get('upload_max_filesize')}</td>
+    </tr>
+    <tr>
+        <td class="nowrap">POST大小限制</td>
+        <td class="nowrap">{:ini_get('post_max_size')}</td>
+        <td class="nowrap">开发公司</td>
+        <td class="nowrap">山东帝云信息科技有限公司</td>
+    </tr>
+    <tr>
+        <td class="nowrap">客服电话</td>
+        <td class="nowrap">0531-58188127</td>
+        <td class="nowrap">公司地址</td>
+        <td class="nowrap">山东省 济南市 天桥区 历山北路 黄台电子商务产业园1501室</td>
+    </tr>
+    {else}
+    <tr>
+        <td class="nowrap">客服电话</td>
+        <td class="nowrap">{:sysconf("serviceTel")}</td>
+        <td class="nowrap">企业官网</td>
+        <td class="nowrap">{:sysconf("webUrl")}</td>
+    </tr>
+    <tr>
+        <td class="nowrap">客服微信</td>
+        <td class="nowrap">{:sysconf("serviceWX")}</td>
+        <td class="nowrap">客服时间</td>
+        <td class="nowrap">{:sysconf("workTime")}</td>
+    </tr>
+    <tr>
+        <td class="nowrap">微信公众号</td>
+        <td class="nowrap">{:sysconf("wechat")}</td>
+        <td class="nowrap">客服邮箱</td>
+        <td class="nowrap">{:sysconf("email")}</td>
+    </tr>
+    <tr>
+        <td class="nowrap">客服QQ</td>
+        <td class="nowrap">{:sysconf("serviceQQ1")}</td>
+        <td class="nowrap">客服QQ</td>
+        <td class="nowrap">{:sysconf("serviceQQ2")}</td>
+    </tr>
+    <tr>
+        <td class="nowrap">网站备案</td>
+        <td class="nowrap">{:sysconf("miitbeian")}</td>
+        <td class="nowrap">版权信息</td>
+        <td class="nowrap">{:sysconf("site_copy")}</td>
+    </tr>
+    {/if}
+    </tbody>
+</table>
+{/block}

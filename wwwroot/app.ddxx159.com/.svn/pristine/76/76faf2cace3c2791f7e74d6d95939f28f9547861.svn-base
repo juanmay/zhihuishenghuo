@@ -1,0 +1,109 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">等级名称</label>
+        <div class="layui-input-inline">
+            <input name="name" value="{$Think.get.name}" placeholder="请输入等级名称" class="layui-input">
+        </div>
+    </div>
+
+	<div class="layui-form-item layui-inline">
+        <label class="layui-form-label">品牌方</label>
+        <div class="layui-input-inline">
+            <select name="allmemberId" class="layui-select">
+            <?php $allmember=getAllMember();?>
+                <!--{foreach $allmember as $k=>$v}-->
+                {if $Think.get.allmemberId eq $v.id}
+                <option value="{$v.id}" selected="selected">{$v.companyName}</option>
+                {else}
+                <option value="{$v.id}">{$v.companyName}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item layui-inline">
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<script>
+    window.form.render();
+    $('[data-time]').map(function () {
+        window.laydate.render({range: true, elem: this});
+    });
+</script>
+<!-- 表单搜索 结束 -->
+
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    {if empty($list)}
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    {else}
+    <table class="layui-table" lay-size="sm">
+        <thead>
+        <tr>
+            <th class="text-center nowrap">图标</th>
+            <th class="text-center nowrap">等级名称</th>
+            <th class="text-center nowrap">环讯代还</th>
+            <th class="text-center nowrap">空卡代还</th>
+            <th class="text-center nowrap">畅捷代还</th>
+            <th class="text-center nowrap">一卡还卡</th>
+            <th class="text-center nowrap">快捷收款</th>
+            <th class="text-center nowrap">升级费用</th>
+            <th class="text-center nowrap">升级奖励</th>
+            <th class="text-center nowrap">直推升级</th>
+            <th class="text-center nowrap">团队奖励</th>
+            <th class="text-center nowrap">新人奖励</th>
+            <th class="text-center nowrap">独立平台</th>
+            <th class="text-center nowrap">有效期</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class="text-center nowrap">
+                <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.logo|default='/static/goods.png'}"/>
+            </td>
+            <td class="text-center nowrap">{$vo.name}</td>
+            <td class="text-center nowrap">{$vo['hx_rate']/100|sprintf="%.2f",###}%+{$vo.hx_fee}</td>
+            <td class="text-center nowrap">{$vo['kb_rate']/100|sprintf="%.2f",###}%+{$vo.kb_fee}</td>
+            <td class="text-center nowrap">大额55：{$vo['cj_1_rate']/100|sprintf="%.2f",###}%+{$vo.cj_fee}<br/>
+            大额45：{$vo['cj_2_rate']/100|sprintf="%.2f",###}%+{$vo.cj_fee}<br/>
+            大额35：{$vo['cj_3_rate']/100|sprintf="%.2f",###}%+{$vo.cj_fee}<br/>
+            小额：{$vo['cjm_rate']/100|sprintf="%.2f",###}%+{$vo.cj_fee}
+            </td>
+            <td class="text-center nowrap">{$vo['cj_min_rate']/100|sprintf="%.2f",###}%+{$vo.cj_min_fee}</td>
+            <td class="text-center nowrap">先锋：{$vo['xf_pay_rate']/100|sprintf="%.2f",###}%+{$vo.xf_pay_fee}<br/>
+            畅捷：{$vo['cj_pay_rate']/100|sprintf="%.2f",###}%+{$vo.cj_pay_fee}</td>
+            <td class="text-center nowrap">{$vo.money}元</td>
+            <td class="text-center nowrap">
+                {if auth("$classuri/cost")}
+                <span class="text-explode">|</span>
+                <a data-title="升级奖励" data-modal='{:url("$classuri/cost")}?id={$vo.id}'>查看</a>
+                {/if}
+            </td>
+            <td class='text-center'>
+                {if $vo.subordinate_num eq 0}<span class="color-red">不升级</span>{else}<span class="color-green">{$vo.subordinate_num}个</span>{/if}
+            </td>
+            <td class="text-center nowrap">{$vo.group_rate}%</td>
+            <td class="text-center nowrap">认证奖励：{$vo['new_money']}元<br/>
+           首刷奖励：{$vo['new2_money']}元</td>
+           <td class='text-center'>
+                {if $vo.is_pc eq 0}<span class="color-red">不可用</span>{else}<span class="color-green">可用</span>{/if}
+            </td>
+            <td class='text-center'>
+                {if $vo.valid eq 0}<span class="color-red">永久有效</span>{else}<span class="color-green">{$vo.valid}天</span>{/if}
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    {/if}
+</form>
+
+{/block}

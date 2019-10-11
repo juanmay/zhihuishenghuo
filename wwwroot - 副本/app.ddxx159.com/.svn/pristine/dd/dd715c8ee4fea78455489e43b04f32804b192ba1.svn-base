@@ -1,0 +1,124 @@
+---------------------------------------------------------------
+[ 2019-06-21T17:10:22+08:00 ] 127.0.0.1 GET dscjall.com/admin.html
+[运行时间：0.754015s] [吞吐率：1.33req/s] [内存消耗：3,601.27kb] [文件加载：130]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sa84b158a=cmllr5op03547r0khrgh4ihtt4; s0300ceee=859r6p7bq5es87i5frnbou57q3; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'dscjall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2019-06-21T17:10:22+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/index.html?spm=m-163-164-165
+[运行时间：0.282875s] [吞吐率：3.54req/s] [内存消耗：2,679.88kb] [文件加载：84]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sa84b158a=cmllr5op03547r0khrgh4ihtt4; s0300ceee=859r6p7bq5es87i5frnbou57q3; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\view\allmember\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-06-21T17:10:25+08:00 ] 127.0.0.1 GET dscjall.com/admin/login/out.html?spm=m-163-164-165
+[运行时间：0.189113s] [吞吐率：5.29req/s] [内存消耗：2,506.13kb] [文件加载：80]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sa84b158a=cmllr5op03547r0khrgh4ihtt4; s0300ceee=859r6p7bq5es87i5frnbou57q3; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-06-21T17:10:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/login.html
+[运行时间：0.207586s] [吞吐率：4.82req/s] [内存消耗：2,754.95kb] [文件加载：77]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sa84b158a=cmllr5op03547r0khrgh4ihtt4; s0300ceee=859r6p7bq5es87i5frnbou57q3; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-06-21T17:11:21+08:00 ] 127.0.0.1 GET dscjall.com/admin/login.html
+[运行时间：0.667434s] [吞吐率：1.50req/s] [内存消耗：2,755.13kb] [文件加载：77]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sa84b158a=cmllr5op03547r0khrgh4ihtt4; s0300ceee=859r6p7bq5es87i5frnbou57q3; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'dscjall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]

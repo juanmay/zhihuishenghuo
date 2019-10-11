@@ -1,0 +1,140 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<button class="layui-btn layui-btn-danger" type='button' onclick="JavaScript:history.go(-1);" data-close>返回</button>
+{if condition="(date('H') lt 18) && ($info.fail_status eq '1')"}
+	<button class="layui-btn layui-btn-danger" type='button' onclick="do_repayment();" data-close>继续</button>
+{/if}
+<!-- 表单 开始 -->
+<table class="layui-table">
+	<tbody>
+		<tr>
+			<td align="right" width="150">用户手机</td><td>{$info.phone}</td>
+			<td align="right" width="150">用户姓名</td><td>{$info.realname}</td>
+		</tr>
+		<tr>
+			<td align="right" width="150">身份证号</td><td>{$info.idcard}</td>
+			<td align="right" width="150">银行卡号</td><td>{$info.bank_num}</td>
+		</tr>
+		<tr>
+            <td align="right" width="150">还款金额</td><td>{$info.repayment_money}</td>
+            <td align="right" width="150">银行名称</td><td>{$info.bank_name}</td>
+		</tr>
+		<tr>
+            <td align="right" width="150">预留金额</td><td>{$info.min_money}</td>
+            <td align="right" width="150">还款费用</td><td>{$info.fee_money}</td>
+		</tr>
+		<tr>
+            <td align="right" width="150">手续费用</td><td>{$info['fee_money']-$info['frequency_money']|sprintf="%.2f",###}</td>
+            <td align="right" width="150">次数费用</td><td>{$info.frequency_money}</td>
+        </tr>
+        <tr>
+            <td align="right" width="150">开始时间</td><td>{$info.start_time|date="Y-m-d"}</td>
+            <td align="right" width="150">结束时间</td><td>{$info.end_time|date="Y-m-d"}</td>
+        </tr>
+        <tr>
+			<td align="right" width="150">出款金额</td><td>{$info.has_pay_money}</td>
+			<td align="right" width="150">入款金额</td><td>{$info.has_repayment_money}</td>
+		</tr>
+		<tr>
+            <td align="right" width="150">运行通道</td><td>酷宝</td>
+            <td align="right" width="150">提交时间</td><td>{$info.add_time|date="Y-m-d"}</td>
+		</tr>
+        <?php if ($info['refund_time']>0): ?>
+        <tr>
+            <td align="right" width="150">退款时间</td><td>{$info.refund_time}</td>
+            <td align="right" width="150">退款金额</td><td>{$info.refund_money}</td>
+        </tr>
+        <tr>
+            <td align="right" width="150">处理结果</td><td>{$info.result_info|default="无处理信息"}</td>
+            <td align="right" width="150">退款结果</td><td>{$info.refund_info|default="无处理信息"}</td>
+        </tr>
+        <?php endif ?>
+	</tbody>
+</table>
+<!-- 表单 结束 -->
+
+<form onsubmit="return false;" data-auto="true" method="post">
+    <!--{empty name='list'}-->
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    <!--{else}-->
+    <input type="hidden" value="resort" name="action">
+    <table class="layui-table" lay-size="sm">
+        <thead>
+        <tr>
+            <th class='text-center'>序号</th>
+            <th class='text-center'>计划时间</th>
+            <th class='text-center'>计划类型</th>
+            <th class='text-center'>计划金额</th>
+            <th class='text-center'>手续费</th>
+            <th class='text-center'>执行单号</th>
+            <th class='text-center'>处理信息</th>
+            <th class='text-center'>状态</th>
+            <th class='text-center'>编号</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--{foreach $list as $key=>$vo}-->
+        <tr>
+            <td class='text-center'>{$vo.sort}</td>
+            <td class='text-center'>{$vo.run_time|date='Y-m-d H:i:s'}</td>
+            <td class='text-center'>{if $vo.type eq 1}<span class="color-red">消费</span>{elseif $vo.type eq 2}<span class="color-green">还款</span>{/if}</td>
+            <td class='text-center'>￥{$vo.money}</td>
+            <td class='text-center'>￥{$vo.fee_money}</td>
+            <td class='text-center'>{$vo.orderNo|default='---'}</td>
+            <td class='text-center'>{$vo.deal_info|default='---'}</td>
+            <td class='text-center'>{$status[$vo['status']]}</td>
+            <td class='text-center'>{$vo.id}</td>
+        </tr>
+        <!--{/foreach}-->
+        </tbody>
+    </table>
+    <!--{/empty}-->
+</form>
+
+{if condition="$info.status eq '4'"}
+<div style="width:100%;line-height:50px;">
+  <div style="width:120px;float:left;text-align:right;">&nbsp;</div>
+  <div style="width:85%;float:left;">
+    <form action="{:url('frepayment/fp_verify')}"  method="post" id="form_add" style="float: left;">
+      <input type="hidden" name="id" value="{$info['id']}"/>&nbsp;
+      <input type="hidden" name="status" value="1"/>&nbsp;
+      <input type="submit" value="审核通过"/ style="height: 50px;width: 100px;line-height: 35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </form>
+    <form action="{:url('frepayment/fp_verify')}" method="post" id="form_verfy" style="float: left;">
+      <input type="hidden" name="id" value="{$info['id']}"/>&nbsp;
+      <input type="hidden" name="status" value="3"/>&nbsp;
+      <input type="text" name="fail_reason" id="fail_reason" placeholder="请填写拒绝原因" style="width: 300px;padding-left: 10px;">
+      <input type="submit" value="审核不通过"/ style="height: 50px;width: 100px;line-height: 35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input onclick="history.go(-1)" type="button" value="取消"/ style="height: 50px;width: 100px;line-height: 35px;">
+    </form>
+  </div>
+</div>  
+{/if}
+
+
+
+<button class="layui-btn layui-btn-danger" type='button' onclick="JavaScript:history.go(-1);" data-close>返回</button>
+<script>
+window.form.render();
+function do_repayment(){
+	var repId={$info.id};
+
+	$.ajax({
+	   type: 'POST',
+	   url: "{:URL('admin/repayment/do_repayment')}" ,
+	    dataType: 'json',
+	   data: "repId="+repId ,
+	    success: function(re){
+	    	if(re.status == '9999'){
+				layer.msg(re.message);
+				location.reload();
+	    	}else{
+				layer.msg(re.message,{icon:2});
+	    	}
+	    	console.log(re);
+	    } 
+	});
+}
+</script>
+{/block}

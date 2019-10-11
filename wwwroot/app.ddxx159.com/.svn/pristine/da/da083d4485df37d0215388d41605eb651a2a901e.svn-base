@@ -1,0 +1,197 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    <div class="form-group">
+        <label class="layui-form-label">等级图标</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.logo|default='/static/goods.png'}"/>
+            <input type="hidden" name="logo" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.logo|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="logo">上传图片</a>
+            <p class="help-block">建议上传图标的尺寸为100x100px，此图标用于APP展示。</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">等级名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="name" value='{$vo.name|default=""}' required="required" title="请输入等级名称" placeholder="请输入等级名称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">通联费率</label>
+        <div class="layui-input-block">
+            <input type="text" name="tl_rate" value='{$vo.tl_rate|default=""}' required="required" title="请输入通联费率" placeholder="请输入通联费率" class="layui-input">
+            <p class="help-block color-desc"><b>通联消费费率：万分比</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">通联费用</label>
+        <div class="layui-input-block">
+            <input type="text" name="tl_fee" value='{$vo.tl_fee|default=""}' required="required" title="请输入通联单笔费用" placeholder="请输入通联单笔费用" class="layui-input">
+            <p class="help-block color-desc"><b>通联单笔费用，元/笔</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷费率</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_1_rate" value='{$vo.cj_1_rate|default=""}' required="required" title="请输入畅捷费率" placeholder="请输入畅捷费率" class="layui-input">
+            <p class="help-block color-desc"><b>畅捷一新无卡101002和110002费率：万分比</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷费率</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_2_rate" value='{$vo.cj_2_rate|default=""}' required="required" title="请输入畅捷费率" placeholder="请输入畅捷费率" class="layui-input">
+            <p class="help-block color-desc"><b>畅捷二新无卡101001和110001、商旅1000费率：万分比</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷费率</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_3_rate" value='{$vo.cj_3_rate|default=""}' required="required" title="请输入畅捷费率" placeholder="请输入畅捷费率" class="layui-input">
+            <p class="help-block color-desc"><b>畅捷三新无卡110003费率：万分比</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷费用</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_fee" value='{$vo.cj_fee|default=""}' required="required" title="请输入畅捷费用" placeholder="请输入畅捷费用" class="layui-input">
+            <p class="help-block color-desc"><b>畅捷单笔费用，元/笔</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">信汇费率</label>
+        <div class="layui-input-block">
+            <input type="text" name="xh_rate" value='{$vo.xh_rate|default=""}' required="required" title="请输入信汇费率" placeholder="请输入信汇费率" class="layui-input">
+            <p class="help-block color-desc"><b>信汇费率：万分比</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">信汇费用</label>
+        <div class="layui-input-block">
+            <input type="text" name="xh_fee" value='{$vo.xh_fee|default=""}' required="required" title="请输入信汇费用" placeholder="请输入信汇费用" class="layui-input">
+            <p class="help-block color-desc"><b>信汇单笔费用，元/笔</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷费率</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_pay_rate" value='{$vo.cj_pay_rate|default=""}' required="required" title="请输入畅捷费率" placeholder="请输入畅捷费率" class="layui-input">
+            <p class="help-block color-desc"><b>畅捷费率：万分比。收款通道</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷费用</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_pay_fee" value='{$vo.cj_pay_fee|default=""}' required="required" title="请输入畅捷费用" placeholder="请输入畅捷费用" class="layui-input">
+            <p class="help-block color-desc"><b>畅捷单笔费用，元/笔。收款通道</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">先锋费率</label>
+        <div class="layui-input-block">
+            <input type="text" name="xf_pay_rate" value='{$vo.xf_pay_rate|default=""}' required="required" title="请输入先锋费率" placeholder="请输入先锋费率" class="layui-input">
+            <p class="help-block color-desc"><b>先锋费率：万分比。收款通道</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">先锋费用</label>
+        <div class="layui-input-block">
+            <input type="text" name="xf_pay_fee" value='{$vo.xf_pay_fee|default=""}' required="required" title="请输入先锋费用" placeholder="请输入先锋费用" class="layui-input">
+            <p class="help-block color-desc"><b>先锋单笔费用，元/笔。收款通道</b></p>
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">升级费用</label>
+        <div class="layui-input-block">
+            <input type="text" name="money" value='{$vo.money|default=""}' required="required" title="请输入升级费用" placeholder="请输入升级费用" class="layui-input">
+            <p class="help-block color-desc"><b>用户直接缴费升级金额</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">直推升级</label>
+        <div class="layui-input-block">
+            <input type="text" name="subordinate_num" value='{$vo.subordinate_num|default=""}' required="required" title="请输入直推升级数量" placeholder="请输入直推升级数量" class="layui-input">
+            <p class="help-block color-desc"><b>当前等级用户直推数量达标升级下一高等级</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">团队奖励</label>
+        <div class="layui-input-block">
+            <input type="text" name="group_rate" value='{$vo.group_rate|default=""}' required="required" title="请输入团队奖励" placeholder="请输入团队奖励" class="layui-input">
+            <p class="help-block color-desc"><b>当平级后团队直推奖励还款额度的比例（%）</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">新人认证奖励</label>
+        <div class="layui-input-block">
+            <input type="text" name="new_money" value='{$vo.new_money|default=""}' required="required" title="请输入新人认证奖励" placeholder="请输入新人认证奖励" class="layui-input">
+            <p class="help-block color-desc"><b>当新人认证时，奖励推荐人一次性金额</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">新人首刷奖励</label>
+        <div class="layui-input-block">
+            <input type="text" name="new2_money" value='{$vo.new2_money|default=""}' required="required" title="请输入新人首刷奖励" placeholder="请输入新人首刷奖励" class="layui-input">
+            <p class="help-block color-desc"><b>当新人首刷时，奖励推荐人一次性金额</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">等级说明</label>
+        <div class="layui-input-block">
+            <textarea class="layui-textarea" style="height:400px;" style="height:400px;" name="info" required="required" placeholder="请输入等级说明">{$vo.info|default=''}</textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">排列序号</label>
+        <div class="layui-input-block">
+            <input type="text" name="sort" value='{$vo.sort|default=""}' required="required" title="请输入问题" placeholder="请输入问题" class="layui-input">
+            <p class="help-block color-desc"><b>数字越大，等级越高，相同数字下后添加的等级高</b></p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">会员有效期</label>
+        <div class="layui-input-block">
+            <input type="text" name="valid" value='{$vo.valid|default="0"}' required="required" title="请输入会员有效期" placeholder="请输入会员有效期" class="layui-input">
+            <p class="help-block color-desc"><b>会员有效期时间：天，0-永久有效</b></p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="layui-form-label">独立平台</label>
+        <div class='col-sm-8'>
+        <?php  if (!isset($vo['is_pc'])) { $vo['is_pc'] = 1; } ?>
+            {foreach ['1'=>'启用','0'=>'禁用'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if $vo['is_pc'] eq $k}-->
+                <input checked type="radio" name="is_pc" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="is_pc" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+            <p class="help-block">是否允许客户使用独立平台。</p>
+        </div>
+    </div>
+    <div class="layui-form-item text-center">
+        {if isset($vo['id'])}<input type='hidden' value='{$vo.id|default="0"}' name='id'>{/if}
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消操作吗？" data-close>取消操作</button>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+</form>
+<script type="text/javascript">
+    require(['jquery', 'ckeditor', 'angular'], function () {
+        window.form.render();
+        window.createEditor('[name="info"]', {height: 300});
+    });
+</script>

@@ -1,0 +1,72 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    <div class="form-group">
+        <label class="layui-form-label">商品图片</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.goodsImage|default='/static/goods.png'}"/>
+            <input type="hidden" name="goodsImage" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.goodsImage|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="goodsImage">上传图片</a>
+            <p class="help-block">建议上传图标的尺寸为400x300px，此图标用于APP展示。</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="goodsName" value='{$vo.goodsName|default=""}' required="required" title="请输入商品名称" placeholder="请输入商品名称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b></p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品价格</label>
+        <div class="layui-input-block">
+            <input type="text" name="goodsPrice" value='{$vo.goodsPrice|default=""}' required="required" title="请输入商品价格" placeholder="请输入商品价格" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，单位积分</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">市场价格</label>
+        <div class="layui-input-block">
+            <input type="text" name="marketPrice" value='{$vo.marketPrice|default=""}' required="required" title="请输入市场价格" placeholder="请输入市场价格" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，单位元</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品库存</label>
+        <div class="layui-input-block">
+            <input type="text" name="goodsStock" value='{$vo.goodsStock|default="100"}' required="required" title="请输入商品库存" placeholder="请输入商品库存" class="layui-input">
+            <p class="help-block color-desc">最大可购买件数</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品销量</label>
+        <div class="layui-input-block">
+            <input type="text" name="saleNum" value='{$vo.saleNum|default=0}' title="请输入商品销量" placeholder="请输入商品销量" class="layui-input">
+            <p class="help-block color-desc">已被兑换数量</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">展示描述</label>
+        <div class="layui-input-block">
+            <textarea class="layui-textarea" name="goodsDesc" required="required" placeholder="请输入展示描述">{$vo.goodsDesc|default=''}</textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item text-center">
+        {if isset($vo['id'])}<input type='hidden' value='{$vo.id|default="0"}' name='id'>{/if}
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消编辑吗？" data-close>取消编辑</button>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+</form>
+<script type="text/javascript">
+    require(['jquery', 'ckeditor', 'angular'], function () {
+        window.form.render();
+        window.createEditor('[name="goodsDesc"]', {height: 300});
+    });
+</script>

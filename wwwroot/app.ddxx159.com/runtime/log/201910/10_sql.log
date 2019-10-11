@@ -1,0 +1,1398 @@
+---------------------------------------------------------------
+[ 2019-10-10T04:55:05+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015009s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.025665s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.007225s ]
+---------------------------------------------------------------
+[ 2019-10-10T05:16:57+08:00 ] 47.101.174.32 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011464s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026465s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.007419s ]
+---------------------------------------------------------------
+[ 2019-10-10T05:16:58+08:00 ] 47.101.174.32 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010270s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.016655s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.006775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.022546s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.013504s ]
+---------------------------------------------------------------
+[ 2019-10-10T07:45:23+08:00 ] 47.101.202.18 GET dscjall.diyunkeji.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006890s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027388s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.004415s ]
+---------------------------------------------------------------
+[ 2019-10-10T07:45:23+08:00 ] 47.101.202.18 GET dscjall.diyunkeji.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014528s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.020251s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.007308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.023502s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.014458s ]
+---------------------------------------------------------------
+[ 2019-10-10T10:58:39+08:00 ] 14.28.184.97 GET app.ddxx159.com/index/common/app.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012863s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026082s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/app' LIMIT 1 [ RunTime:0.005964s ]
+---------------------------------------------------------------
+[ 2019-10-10T14:36:28+08:00 ] 113.91.208.105 GET app.ddxx159.com/index/common/register/code/2tu5j8.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011196s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024246s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.007726s ]
+---------------------------------------------------------------
+[ 2019-10-10T14:36:34+08:00 ] 113.91.208.105 GET app.ddxx159.com/index/common/register/code/2tu5j8.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012756s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.031219s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.008325s ]
+---------------------------------------------------------------
+[ 2019-10-10T14:37:19+08:00 ] 61.129.6.227 GET app.ddxx159.com/index/common/register/code/2tu5j8.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012981s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.028883s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.006698s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:17:54+08:00 ] 123.232.6.106 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009039s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024582s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.005849s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:17:57+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007749s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026441s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.004991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019751s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.012132s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:17:59+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008862s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018156s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.005778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.017036s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.014435s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:18:09+08:00 ] 180.163.220.3 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008737s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017162s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.003907s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:18:09+08:00 ] 180.163.220.3 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011562s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.020042s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.007596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.022898s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.015227s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:18:31+08:00 ] 123.232.6.106 POST app.ddxx159.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010990s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.028918s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.007171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.033382s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `username` = 'admin'  AND `dataFlag` = 1 LIMIT 1 [ RunTime:0.007288s ]
+[ sql ] [ SQL ] UPDATE `dy_system_user`  SET `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.009122s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.007220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.027151s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.007280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth_node` [ RunTime:0.025866s ]
+[ sql ] [ SQL ] SELECT `node` FROM `dy_system_auth_node` WHERE  `auth` IN (2,4) [ RunTime:0.007116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_log` [ RunTime:0.026541s ]
+[ sql ] [ SQL ] INSERT INTO `dy_system_log` (`ip` , `node` , `action` , `content` , `username`) VALUES ('123.232.6.106' , 'admin/login/index' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.009103s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:18:31+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006837s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017543s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.004363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.015539s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.004406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.015480s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.004324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth_node` [ RunTime:0.015043s ]
+[ sql ] [ SQL ] SELECT `node` FROM `dy_system_auth_node` WHERE  `auth` IN (2,4) [ RunTime:0.004266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.031048s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.004825s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `dy_system_node` [ RunTime:0.004942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.017840s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.006722s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:18:32+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019981s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.022376s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.005731s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.005613s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:19:23+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/total/index.html?spm=m-7-77-144
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021760s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019362s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/total/index' LIMIT 1 [ RunTime:0.006957s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018553s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006208s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006210s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006169s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:19:23+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/total/bing.html?allmemberId=1000000001
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008935s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027405s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/total/bing' LIMIT 1 [ RunTime:0.005860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021842s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005862s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:19:29+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/repayment.html?spm=m-7-156-158
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007349s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026850s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/repayment' LIMIT 1 [ RunTime:0.004854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020687s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004692s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004670s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004796s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:19:31+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/member.html?spm=m-7-156-157
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013494s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.031182s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/member' LIMIT 1 [ RunTime:0.008909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.024523s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.008723s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.008720s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.008802s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:19:33+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/repaymentmember.html?spm=m-7-156-162
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008368s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017164s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/repaymentmember' LIMIT 1 [ RunTime:0.005483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.017356s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005352s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005382s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005414s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:19:36+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/repaymentcard.html?spm=m-7-156-176
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009157s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.028242s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/repaymentcard' LIMIT 1 [ RunTime:0.006003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021820s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005875s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005843s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005944s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:25:52+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005434s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024504s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.003450s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.003351s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:25:53+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008693s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.028555s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/member/index' LIMIT 1 [ RunTime:0.005606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.022074s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005610s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005624s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005599s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005517s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005500s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005500s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005476s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005509s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005484s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005593s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005510s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005504s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005504s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005472s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005507s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005489s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005472s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005481s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005522s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005542s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005487s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005549s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005506s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005490s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005512s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005510s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005497s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005503s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005489s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005514s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005508s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005513s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005522s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005513s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005515s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005514s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005502s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005469s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005505s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005471s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005519s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005484s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005510s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005517s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:25:54+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019150s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.023192s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.004694s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.004586s ]
+---------------------------------------------------------------
+[ 2019-10-10T15:57:50+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011092s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029268s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.007332s ]
+---------------------------------------------------------------
+[ 2019-10-10T16:43:33+08:00 ] 112.229.90.95 GET app.ddxx159.com/index/common/app.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010445s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029570s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/app' LIMIT 1 [ RunTime:0.006698s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:21:07+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/total/index.html?spm=m-7-77-144
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009160s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.021984s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/total/index' LIMIT 1 [ RunTime:0.005884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021912s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005859s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005835s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006014s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:21:07+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/total/bing.html?allmemberId=1000000001
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014446s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018332s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/total/bing' LIMIT 1 [ RunTime:0.006458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018365s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006530s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:21:10+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020761s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027696s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.007011s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.006809s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:21:21+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/repayment.html?spm=m-7-156-158
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020441s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.034979s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/repayment' LIMIT 1 [ RunTime:0.008287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020840s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.008322s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.008441s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.008274s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:22:01+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/quick.html?spm=m-7-156-161
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016835s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019084s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/quick' LIMIT 1 [ RunTime:0.007769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018238s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005853s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005873s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005859s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:22:19+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/repaymentmember.html?spm=m-7-156-162
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012937s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026219s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/repaymentmember' LIMIT 1 [ RunTime:0.004230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020151s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004162s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004122s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004167s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:22:55+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/repaymentcard.html?spm=m-7-156-176
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019799s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029877s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/repaymentcard' LIMIT 1 [ RunTime:0.006934s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.034676s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006923s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006870s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007018s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:23:06+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/fpaywithhold.html?spm=m-7-156-175
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007394s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017006s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/fpaywithhold' LIMIT 1 [ RunTime:0.003956s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.024032s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.003851s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003840s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.003937s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:23:44+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013330s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.028523s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/member/index' LIMIT 1 [ RunTime:0.005902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021966s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005796s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005747s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005942s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005814s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005821s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005846s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005931s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005765s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005818s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005789s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005792s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005775s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005764s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005802s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005757s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005777s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005770s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005764s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005918s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005754s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005758s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005740s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005778s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005744s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005772s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005719s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005731s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005734s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005746s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005765s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005888s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005724s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005736s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005688s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005732s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005738s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005766s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005746s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005690s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005748s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005723s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005711s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005719s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005698s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:23:46+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/group/money.html?spm=m-43-44-143
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021581s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.022334s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/group/money' LIMIT 1 [ RunTime:0.006484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018770s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006285s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006320s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006308s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006282s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006277s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006276s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006257s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006414s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006245s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006242s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006256s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006231s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006267s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006245s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006296s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006229s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006240s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006225s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006229s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006288s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006273s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006226s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006244s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006403s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006206s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006286s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006400s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006203s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006238s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006244s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006259s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006285s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006222s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006230s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006252s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006212s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006224s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006229s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006238s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006272s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006226s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006279s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006256s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006225s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:23:49+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/achievement/index.html?spm=m-43-44-116
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015362s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024821s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/achievement/index' LIMIT 1 [ RunTime:0.004758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018070s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004661s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004613s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004704s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004691s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004639s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004641s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004610s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004612s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004564s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004616s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004600s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004632s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004615s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004629s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004634s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004608s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004621s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004618s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004612s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004618s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004591s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004609s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004598s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004627s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004625s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004602s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004585s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004581s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004613s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004572s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004573s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004620s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004591s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004611s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004596s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004563s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004590s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004561s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004547s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004579s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004584s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004595s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004579s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004585s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:23:53+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/bill/index.html?spm=m-43-44-91
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019177s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.023187s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/bill/index' LIMIT 1 [ RunTime:0.006777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.022466s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005953s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005954s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006041s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:23:55+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/creditcard/index.html?spm=m-43-44-48
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013613s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.028048s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/creditcard/index' LIMIT 1 [ RunTime:0.005896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.022030s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005737s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005704s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005816s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:23:57+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009970s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018313s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005860s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005824s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005902s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005995s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005830s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005829s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005823s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005839s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005953s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005818s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005823s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005819s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005813s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005840s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005879s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005862s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005806s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005855s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005820s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005798s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005789s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005796s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005876s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005826s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005853s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005952s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005951s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005822s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005768s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005758s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005789s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005766s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005776s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005790s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005802s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005760s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005812s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005783s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005797s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005770s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005796s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005798s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005798s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005782s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:00+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/repayment/running.html?spm=m-146-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007377s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027491s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/repayment/running' LIMIT 1 [ RunTime:0.004847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021122s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004719s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004612s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004700s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:02+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020291s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.143009s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.004825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.160864s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.005730s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:05+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/user/index.html?spm=m-1-11-5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020108s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.022062s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.005750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.021008s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_system_user` WHERE  `id` > 10003  AND `dataFlag` = 1 LIMIT 1 [ RunTime:0.006407s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` > 10003  AND `dataFlag` = 1 LIMIT 0,20 [ RunTime:0.005774s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:07+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016419s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026750s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.005760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.022024s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.005686s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.005931s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:37+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/monthsettled/index.html?spm=m-163-170-172
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021851s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029645s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/monthsettled/index' LIMIT 1 [ RunTime:0.007067s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_month_settled` [ RunTime:0.035632s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_month_settled` `a` LEFT JOIN `dy_allmember` `b` ON `a`.`uid`=`b`.`id` LIMIT 1 [ RunTime:0.007615s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`realname`,`b`.`phone`,`b`.`companyName` FROM `dy_month_settled` `a` LEFT JOIN `dy_allmember` `b` ON `a`.`uid`=`b`.`id` ORDER BY `a`.`id` DESC LIMIT 0,20 [ RunTime:0.007166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.023094s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006947s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:37+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/allcash/index.html?spm=m-163-164-168
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014672s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018910s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allcash/index' LIMIT 1 [ RunTime:0.006117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allcash` [ RunTime:0.022576s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allcash` LIMIT 1 [ RunTime:0.006541s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allcash` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.005888s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:38+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/allmoneylog/index.html?spm=m-163-164-169
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005803s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018933s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmoneylog/index' LIMIT 1 [ RunTime:0.003784s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018415s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.003679s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003741s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.003718s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:39+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/cost/index.html?spm=m-163-164-174
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016960s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026411s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/cost/index' LIMIT 1 [ RunTime:0.004473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_cost` [ RunTime:0.026491s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_cost` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004506s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:40+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011002s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.020459s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/member/index' LIMIT 1 [ RunTime:0.007276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.028949s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007081s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007055s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007185s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007077s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007042s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007022s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007018s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007005s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007066s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007057s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007099s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007027s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007039s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007013s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007063s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007032s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007076s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007097s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007050s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007085s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007029s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007085s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007106s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007025s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007082s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007039s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007067s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007048s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007041s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007056s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007042s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007034s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007049s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007058s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007050s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007030s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007064s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007021s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007036s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007048s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007044s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007027s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007029s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007040s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:46+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/achievement/index.html?spm=m-43-44-116
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009292s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.025692s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/achievement/index' LIMIT 1 [ RunTime:0.006046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.027694s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005965s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006095s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006027s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006006s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006040s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005998s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005923s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005883s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005888s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005895s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005882s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005931s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005919s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005887s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005920s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005916s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005918s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005924s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005922s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005958s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005934s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005925s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005924s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005935s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005958s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005932s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005930s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006148s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005906s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005958s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005906s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005951s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005942s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005913s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006014s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005939s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005954s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005934s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006094s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005881s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005871s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005915s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:47+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/group/money.html?spm=m-43-44-143
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022392s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029509s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/group/money' LIMIT 1 [ RunTime:0.007119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.023405s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007096s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007096s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007113s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007103s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007081s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007060s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007015s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007069s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007086s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007049s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007005s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007007s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007040s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007022s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007023s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007003s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007087s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007007s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007031s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006969s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007002s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007039s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007005s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007026s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007044s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006986s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007010s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007033s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006992s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007035s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006997s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007028s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007015s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007020s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007038s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007045s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007021s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007027s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007007s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007026s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006993s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007013s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:51+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011813s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.016032s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.016175s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004311s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004281s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004348s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004314s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004276s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004322s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004278s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004267s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004241s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004243s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004271s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004241s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004281s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004240s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004364s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004326s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004267s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004244s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004255s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004202s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004287s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004242s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004237s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004243s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004245s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004266s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004376s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004285s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004259s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004243s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004244s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004231s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004230s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004248s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004250s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004246s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004249s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004230s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004237s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004246s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004261s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004227s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004255s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004262s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:51+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/moneylog/index.html?spm=m-43-44-47
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014055s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027895s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/moneylog/index' LIMIT 1 [ RunTime:0.005513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021523s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005472s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005453s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005514s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:52+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/cash/index.html?spm=m-43-44-46
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010115s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026046s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/cash/index' LIMIT 1 [ RunTime:0.004412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020387s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004284s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004253s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004352s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:53+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/bill/index.html?spm=m-43-44-91
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008511s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.021748s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/bill/index' LIMIT 1 [ RunTime:0.004146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.022776s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004092s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004087s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004110s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:53+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/creditcard/index.html?spm=m-43-44-48
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011347s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019721s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/creditcard/index' LIMIT 1 [ RunTime:0.007444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.019865s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007399s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007384s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007401s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:54+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/points/index.html?spm=m-43-44-147
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010949s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029228s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/points/index' LIMIT 1 [ RunTime:0.005965s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.022190s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005826s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005805s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005893s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:56+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008963s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.028092s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.005763s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.005630s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:24:58+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/statistics/repaymentcard.html?spm=m-7-156-176
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015644s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.022038s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/statistics/repaymentcard' LIMIT 1 [ RunTime:0.006059s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.022790s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006047s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006143s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006019s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:01+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/repayment/running.html?spm=m-146-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006674s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026914s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/repayment/running' LIMIT 1 [ RunTime:0.004238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020672s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004204s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004169s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004228s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:06+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/goods/index.html?spm=m-146-153-154
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017079s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018445s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/goods/index' LIMIT 1 [ RunTime:0.006029s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018401s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005941s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005954s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.005945s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:11+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/order/index.html?spm=m-146-153-155
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014058s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.025090s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/order/index' LIMIT 1 [ RunTime:0.004027s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020188s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.003854s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003835s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.003923s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:14+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/goods/index.html?spm=m-146-153-154
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007143s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020881s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004521s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004475s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004597s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:26+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016819s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027446s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.004818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.019870s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.004922s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:28+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/user/index.html?spm=m-1-11-5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008799s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017554s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.005770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.020677s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_system_user` WHERE  `id` > 10003  AND `dataFlag` = 1 LIMIT 1 [ RunTime:0.005743s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` > 10003  AND `dataFlag` = 1 LIMIT 0,20 [ RunTime:0.005715s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:30+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/config/index.html?spm=m-1-10-3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007153s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.016360s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/config/index' LIMIT 1 [ RunTime:0.004721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018932s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.022234s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:31+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/auth/index.html?spm=m-1-11-4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008788s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017728s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.005827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.020633s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_system_auth` WHERE  `dataFlag` = 1  AND `id` > 1 LIMIT 1 [ RunTime:0.006372s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_auth` WHERE  `dataFlag` = 1  AND `id` > 1 ORDER BY `sort` ASC LIMIT 0,20 [ RunTime:0.005776s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:32+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/node/index.html?spm=m-1-11-6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009367s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027771s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.005739s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `dy_system_node` [ RunTime:0.005659s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:33+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012375s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.031196s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.008048s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.026127s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.008084s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.008297s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:35+08:00 ] 123.232.6.106 POST app.ddxx159.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009141s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.016178s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.003744s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.015758s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.003680s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.003812s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:25:59+08:00 ] 123.232.6.106 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011185s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029240s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.007304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.022992s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.007292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.022044s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.007256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth_node` [ RunTime:0.022126s ]
+[ sql ] [ SQL ] SELECT `node` FROM `dy_system_auth_node` WHERE  `auth` IN (2,4) [ RunTime:0.007175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.022203s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.007313s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `dy_system_node` [ RunTime:0.007340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.022342s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.014364s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:26:00+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010879s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024029s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.007293s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.007033s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:26:16+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004997s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024911s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/member/index' LIMIT 1 [ RunTime:0.003165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.019433s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.003157s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003119s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003202s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.003124s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003058s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003101s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003050s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003058s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003033s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003034s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003113s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003056s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003060s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003028s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003051s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003022s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003034s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003052s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003073s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003320s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003062s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003045s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003060s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003076s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003030s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003021s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003065s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003145s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003016s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003044s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003034s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003033s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003029s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003005s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003030s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003053s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003059s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003038s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003049s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003058s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003082s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003069s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003060s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.003069s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:26:17+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005419s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019731s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.003565s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.003519s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:26:19+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/repayment/running.html?spm=m-146-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015624s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027632s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/repayment/running' LIMIT 1 [ RunTime:0.004856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021139s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004864s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004792s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004854s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:26:20+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011391s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019556s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.007463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.022707s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.007616s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:26:23+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/user/index.html?spm=m-1-11-5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016061s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.025644s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.005262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.024423s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_system_user` WHERE  `id` > 10003  AND `dataFlag` = 1 LIMIT 1 [ RunTime:0.005224s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` > 10003  AND `dataFlag` = 1 LIMIT 0,20 [ RunTime:0.005237s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:26:24+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022425s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019208s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.007125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021850s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.007139s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.007363s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:26:26+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017621s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026507s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.003485s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.003391s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:16+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010908s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029674s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.007060s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:16+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007745s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018031s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.004458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.020508s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.009120s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:18+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008478s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.034720s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.005517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.037556s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.011235s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:21+08:00 ] 123.232.6.106 POST app.ddxx159.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019554s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.021637s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.005521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.021290s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `username` = 'admin'  AND `dataFlag` = 1 LIMIT 1 [ RunTime:0.006467s ]
+[ sql ] [ SQL ] UPDATE `dy_system_user`  SET `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.007733s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.005760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.034432s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.005580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth_node` [ RunTime:0.027249s ]
+[ sql ] [ SQL ] SELECT `node` FROM `dy_system_auth_node` WHERE  `auth` IN (2,4) [ RunTime:0.005603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_log` [ RunTime:0.029126s ]
+[ sql ] [ SQL ] INSERT INTO `dy_system_log` (`ip` , `node` , `action` , `content` , `username`) VALUES ('123.232.6.106' , 'admin/login/index' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.008154s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:22+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018572s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017929s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.004691s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.020926s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.004703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.024576s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.004619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth_node` [ RunTime:0.019653s ]
+[ sql ] [ SQL ] SELECT `node` FROM `dy_system_auth_node` WHERE  `auth` IN (2,4) [ RunTime:0.004595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.019940s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.004768s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `dy_system_node` [ RunTime:0.004717s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.020189s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.007147s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:22+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014934s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.023634s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.006038s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.005955s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:26+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010624s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.029806s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/member/index' LIMIT 1 [ RunTime:0.006892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.023097s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006865s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006821s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006912s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006779s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006784s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006793s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006721s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006761s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006747s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006779s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006754s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006752s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006730s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006776s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006729s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006752s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006726s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006768s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006730s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006711s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006737s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006723s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006714s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006727s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006732s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006743s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006722s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006742s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006746s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006766s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006721s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006716s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006710s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006715s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006856s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006708s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006707s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006746s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006718s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006718s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006725s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006721s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006719s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006721s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:28+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008960s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018130s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.005847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.023171s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.005851s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.006037s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:30+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011159s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019554s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.007311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.022964s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.007466s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:38+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/repayment/running.html?spm=m-146-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010030s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.022753s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/repayment/running' LIMIT 1 [ RunTime:0.006532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.023055s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006473s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006455s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.006513s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:42+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013367s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026984s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020947s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004408s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004379s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004453s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004458s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004420s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004387s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004418s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004355s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004338s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004351s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004329s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004325s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004343s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004356s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004333s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004326s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004328s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004348s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004325s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004355s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004352s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004376s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004342s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004356s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004425s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004384s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004359s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004335s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004466s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004341s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004343s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004360s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004338s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004355s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004353s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004381s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004347s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004351s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004345s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004348s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004335s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004348s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004328s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004348s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:44+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/group/money.html?spm=m-43-44-143
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007143s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027426s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/group/money' LIMIT 1 [ RunTime:0.004261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021112s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004155s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004153s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004192s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004161s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004190s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004162s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004124s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004091s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004125s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004156s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004110s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004105s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004113s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004086s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004093s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004115s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004097s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004106s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004128s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004106s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004110s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004098s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004120s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004098s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004167s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004185s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004168s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004164s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004117s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004271s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004111s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004297s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004119s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004114s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004274s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004145s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004117s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004098s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004093s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004127s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004157s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004132s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004147s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004137s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:51+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/member/index.html?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010881s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.030215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.023529s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007066s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006993s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007105s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.007054s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007005s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007028s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007011s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007056s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007002s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006993s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006978s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006986s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007006s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006969s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006987s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006975s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006983s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006992s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006971s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006997s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006974s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006968s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006986s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006970s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007060s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006976s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006966s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006961s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006985s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006987s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006987s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006977s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006964s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006980s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006978s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006974s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006950s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006976s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006976s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006990s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006979s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007010s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.006950s ]
+---------------------------------------------------------------
+[ 2019-10-10T18:36:55+08:00 ] 123.232.6.106 GET app.ddxx159.com/admin/group/money.html?spm=m-43-44-143
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012838s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.025807s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/group/money' LIMIT 1 [ RunTime:0.004934s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021685s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004900s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004890s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004891s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`companyName` FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` ASC [ RunTime:0.004886s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004897s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004861s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004839s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004843s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004823s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004834s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004858s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004820s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004878s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004820s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004823s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004836s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004816s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004838s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004829s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004828s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004866s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004797s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004821s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004832s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004826s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004806s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004855s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004825s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004821s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004813s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004878s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004852s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004840s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004841s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004859s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004896s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004863s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.005004s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004851s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004838s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004839s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004843s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004843s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `dataFlag` = 1  AND `id` = 1000000001 ORDER BY `id` ASC LIMIT 1 [ RunTime:0.004849s ]
+---------------------------------------------------------------
+[ 2019-10-10T19:16:48+08:00 ] 113.118.232.114 GET app.ddxx159.com/index/common/register/code/sIC4GK.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007349s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026535s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.004602s ]
+---------------------------------------------------------------
+[ 2019-10-10T20:43:39+08:00 ] 47.101.150.223 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008868s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.022612s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.005756s ]
+---------------------------------------------------------------
+[ 2019-10-10T20:43:39+08:00 ] 47.101.150.223 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009752s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018304s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.006372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.021811s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.012822s ]

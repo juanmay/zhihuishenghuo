@@ -1,0 +1,58 @@
+{extend name="admin@public/content"}
+
+{block name="content"}
+<div class="layui-card">
+<table class="layui-table">
+   <tbody>
+       <tr>
+          <td class='text-center'>{:sysconf('firstTierAgent')}代理累计已提现总额</td>
+          <td class='text-center'>{$moneyAgentAll[1]}&nbsp;元</td>
+          <td class='text-center'>{:sysconf('firstTierAgent')}代理累计可提现总额</td>
+          <td class='text-center'>{$moneyAgentUse[1]}&nbsp;元</td>
+       </tr>
+       <tr>
+          <td class='text-center'>{:sysconf('secondTierAgent')}代理累计已提现总额</td>
+          <td class='text-center'>{$moneyAgentAll[2]}&nbsp;元</td>
+          <td class='text-center'>{:sysconf('secondTierAgent')}代理累计可提现总额</td>
+          <td class='text-center'>{$moneyAgentUse[2]}&nbsp;元</td>
+       </tr>
+       <tr>
+          <td class='text-center'>{:sysconf('thirdTierAgent')}代理累计已提现总额</td>
+          <td class='text-center'>{$moneyAgentAll[3]}&nbsp;元</td>
+          <td class='text-center'>{:sysconf('thirdTierAgent')}代理累计可提现总额</td>
+          <td class='text-center'>{$moneyAgentUse[3]}&nbsp;元</td>
+       </tr>
+       <tr>
+          <td class='text-center'>{:sysconf('fourthTierAgent')}代理累计已提现总额</td>
+          <td class='text-center'>{$moneyAgentAll[3]}&nbsp;元</td>
+          <td class='text-center'>{:sysconf('fourthTierAgent')}代理累计可提现总额</td>
+          <td class='text-center'>{$moneyAgentUse[3]}&nbsp;元</td>
+       </tr>
+       <tr>
+          <td class='text-center'>{:sysconf('firstTierMember')}累计已提现总额</td>
+          <td class='text-center'>{$moneyAgentAll[4]}&nbsp;元</td>
+          <td class='text-center'>{:sysconf('firstTierMember')}累计可提现总额</td>
+          <td class='text-center'>{$moneyAgentUse[4]}&nbsp;元</td>
+       </tr>
+       <tr>
+          <td class='text-center'>{:sysconf('secondTierMember')}累计已提现总额</td>
+          <td class='text-center'>{$moneyAll[2]}&nbsp;元</td>
+          <td class='text-center'>{:sysconf('secondTierMember')}累计可提现总额</td>
+          <td class='text-center'>{$moneyUse[2]}&nbsp;元</td>
+       </tr>
+       <tr>
+          <td class='text-center'>{:sysconf('thirdTierMember')}累计已提现总额</td>
+          <td class='text-center'>{$moneyAll[3]}&nbsp;元</td>
+          <td class='text-center'>{:sysconf('thirdTierMember')}累计可提现总额</td>
+          <td class='text-center'>{$moneyUse[3]}&nbsp;元</td>
+       </tr>
+       <tr>
+          <td class='text-center'>可用余额</td>
+          <td class='text-center'>{$result.accountMoney}&nbsp;元</td>
+          <td class='text-center'>冻结余额</td>
+          <td class='text-center'>{$result.freezeMoney}</td>
+       </tr>
+    </tbody>
+</table>
+</div>
+{/block}

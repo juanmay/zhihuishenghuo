@@ -1,0 +1,81 @@
+---------------------------------------------------------------
+[ 2019-10-08T04:04:57+08:00 ] 211.138.125.213 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007521s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.020640s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.004921s ]
+---------------------------------------------------------------
+[ 2019-10-08T04:04:58+08:00 ] 211.138.125.213 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004693s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018464s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.002975s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.014548s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.005961s ]
+---------------------------------------------------------------
+[ 2019-10-08T05:24:02+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008456s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.089589s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.005494s ]
+---------------------------------------------------------------
+[ 2019-10-08T06:23:54+08:00 ] 47.101.200.166 GET dscjall.diyunkeji.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008982s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.023147s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.005839s ]
+---------------------------------------------------------------
+[ 2019-10-08T06:23:54+08:00 ] 47.101.200.166 GET dscjall.diyunkeji.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012545s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.016351s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.007169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018641s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.017293s ]
+---------------------------------------------------------------
+[ 2019-10-08T08:45:09+08:00 ] 47.101.192.162 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021341s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024350s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.008546s ]
+---------------------------------------------------------------
+[ 2019-10-08T08:45:09+08:00 ] 47.101.192.162 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012452s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017219s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.008148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.020072s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.020280s ]
+---------------------------------------------------------------
+[ 2019-10-08T09:12:20+08:00 ] 113.129.77.197 GET app.ddxx159.com/index/common/app.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018656s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.021374s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/app' LIMIT 1 [ RunTime:0.004824s ]
+---------------------------------------------------------------
+[ 2019-10-08T09:12:31+08:00 ] 113.129.77.197 GET app.ddxx159.com/index/common/app.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009339s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.022271s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/app' LIMIT 1 [ RunTime:0.005967s ]
+---------------------------------------------------------------
+[ 2019-10-08T09:14:00+08:00 ] 113.129.77.197 GET app.ddxx159.com/index/common/app.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009727s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.014538s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/app' LIMIT 1 [ RunTime:0.004967s ]
+---------------------------------------------------------------
+[ 2019-10-08T09:15:00+08:00 ] 61.129.6.151 GET app.ddxx159.com/index/common/app.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006572s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.020366s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/app' LIMIT 1 [ RunTime:0.004243s ]
+---------------------------------------------------------------
+[ 2019-10-08T13:49:42+08:00 ] 36.57.162.65 GET app.ddxx159.com/index/common/app.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013598s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.023078s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/app' LIMIT 1 [ RunTime:0.007534s ]
+---------------------------------------------------------------
+[ 2019-10-08T14:14:46+08:00 ] 115.196.201.245 GET app.ddxx159.com/index/common/register/code/HYqZPN.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008717s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.022785s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.005711s ]
+---------------------------------------------------------------
+[ 2019-10-08T14:15:24+08:00 ] 115.196.201.245 GET app.ddxx159.com/index/common/register/code/HYqZPN.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009937s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.027192s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.006511s ]
+---------------------------------------------------------------
+[ 2019-10-08T14:24:50+08:00 ] 115.196.201.245 GET app.ddxx159.com/index/common/register/code/HYqZPN.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009690s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.023792s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.006282s ]

@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2019-10-05T21:10:10+08:00 ] 27.206.215.14 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-10-05T21:10:13+08:00 ] 27.206.215.14 GET dscjall.diyunkeji.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-10-05T21:10:18+08:00 ] 27.206.215.14 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:699]

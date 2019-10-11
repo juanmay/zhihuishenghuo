@@ -1,0 +1,87 @@
+{extend name='admin@public/content'}
+
+{block name="button"}
+<!--{if input("get.pid/d",0)>0 }-->
+<button data-open='{:url("$classuri/index")}?pid={:input("get.ppid/d",0)}' data-title="返回上级" class='layui-btn layui-btn-sm layui-btn-primary'>上级银行</button>
+<!--{/if}-->
+<!--{if auth("$classuri/add")}-->
+<button data-modal='{:url("$classuri/add")}?pid={:input("get.pid/d",0)}' data-title="添加银行" class='layui-btn layui-btn-sm layui-btn-primary'>添加银行</button>
+<!--{/if}-->
+<!--{if auth("$classuri/del")}-->
+<button data-update data-field='delete' data-action='{:url("$classuri/del")}' class='layui-btn layui-btn-sm layui-btn-primary'>删除银行</button>
+<!--{/if}-->
+{/block}
+
+{block name="content"}
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    <!--{empty name='list'}-->
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    <!--{else}-->
+    <input type="hidden" value="resort" name="action">
+    <table id="test" class="layui-table" lay-skin="line">
+        <thead>
+        <tr>
+            <th class='list-table-check-td think-checkbox'>
+                <input data-auto-none="" data-check-target='.list-check-box' type='checkbox'>
+            </th>
+            <th class='list-table-sort-td'>
+                <button type="submit" class="layui-btn layui-btn-normal layui-btn-xs">排 序</button>
+            </th>
+            <th>银行图标</th>
+            <th>银行名称</th>
+            <th>银行编号</th>
+            <th>银行色值</th>
+            <th>银行联行号</th>
+            <th>畅捷路由渠道</th>
+            <th class='text-center'>状态</th>
+            <th class='text-center'>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--{foreach $list as $key=>$vo}-->
+        <tr>
+            <td class='list-table-check-td think-checkbox'>
+                <input class="list-check-box" value='{$vo.id}' type='checkbox'>
+            </td>
+            <td class='list-table-sort-td'>
+                <input name="_{$vo.id}" value="{$vo.sort}" class="list-sort-input">
+            </td>
+            <td>
+                <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.logo|default='/static/logo.jpg'}"/>
+            </td>
+            <td>{$vo.name}</td>
+            <td>{$vo.code}</td>
+            <td style="background-color:{$vo.color|default='#000'};border:1px solid #000;">{$vo.color|default='#000'}</td>
+            <td>{$vo.number}</td>
+            <td>{$vo.cj_type}</td>
+            <td class='text-center'>
+                {if $vo.isShow eq 0}<span>隐藏</span>{elseif $vo.isShow eq 1}<span class="color-green">显示</span>{/if}
+            </td>
+            <td class='text-center notselect'>
+
+                {if auth("$classuri/edit")}
+                <span class="text-explode">|</span>
+                <a data-title="编辑" data-modal='{:url("$classuri/edit")}?id={$vo.id}'>编辑</a>
+                {/if}
+
+                {if $vo.isShow eq 1 and auth("$classuri/forbid")}
+                <span class="text-explode">|</span>
+                <a data-update="{$vo.id}" data-field='isShow' data-value='0' data-action='{:url("$classuri/forbid")}'>禁用</a>
+                {elseif auth("$classuri/resume")}
+                <span class="text-explode">|</span>
+                <a data-update="{$vo.id}" data-field='isShow' data-value='1' data-action='{:url("$classuri/resume")}'>启用</a>
+                {/if}
+
+                {if auth("$classuri/del")}
+                <span class="text-explode">|</span>
+                <a data-update="{$vo.id}" data-field='delete' data-action='{:url("$classuri/del")}'>删除</a>
+                {/if}
+            </td>
+        </tr>
+        <!--{/foreach}-->
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    <!--{/empty}-->
+</form>
+{/block}

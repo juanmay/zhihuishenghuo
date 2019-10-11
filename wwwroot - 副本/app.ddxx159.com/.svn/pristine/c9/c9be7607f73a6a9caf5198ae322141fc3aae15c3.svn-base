@@ -1,0 +1,554 @@
+---------------------------------------------------------------
+[ 2019-06-15T09:09:54+08:00 ] 127.0.0.1 GET dscj.com/agent/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022351s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014100s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:09:59+08:00 ] 127.0.0.1 GET dscj.com/agent/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022279s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014182s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:16:02+08:00 ] 127.0.0.1 GET dscj.com/agent/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026124s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014623s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:16:25+08:00 ] 127.0.0.1 GET dscj.com/agent/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022665s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014225s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:20:27+08:00 ] 127.0.0.1 GET dscj.com/agent
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021611s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018670s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/index/index' LIMIT 1 [ RunTime:0.014997s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:20:30+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023465s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018704s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.016008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019871s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.213350s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:20:34+08:00 ] 127.0.0.1 GET dscj.com/agent
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023298s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018935s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/index/index' LIMIT 1 [ RunTime:0.016172s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:21:23+08:00 ] 127.0.0.1 GET dscj.com/agent
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021131s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.016877s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/index/index' LIMIT 1 [ RunTime:0.014139s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:22:41+08:00 ] 127.0.0.1 GET dscj.com/agent/index.ondex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022888s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018233s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/index.ondex/index' LIMIT 1 [ RunTime:0.014639s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:22:45+08:00 ] 127.0.0.1 GET dscj.com/agent/index/iondex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025495s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019063s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/index/iondex' LIMIT 1 [ RunTime:0.015835s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:22:50+08:00 ] 127.0.0.1 GET dscj.com/agent/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021656s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017743s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/index/index' LIMIT 1 [ RunTime:0.014614s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:25:48+08:00 ] 127.0.0.1 GET dscj.com/agent/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023748s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018898s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/index/index' LIMIT 1 [ RunTime:0.015634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_agent_menu` [ RunTime:0.018291s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_agent_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.016170s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:25:49+08:00 ] 127.0.0.1 GET dscj.com/agent/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023474s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019380s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/login/index' LIMIT 1 [ RunTime:0.016065s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018477s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.051237s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:26:20+08:00 ] 127.0.0.1 GET dscj.com/agent/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024159s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019833s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'agent/login/index' LIMIT 1 [ RunTime:0.016294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.017875s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.050566s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:28:16+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021696s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018306s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.014774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018006s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.050004s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:28:32+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022758s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019840s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018733s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.055199s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:30:29+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024915s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019160s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015664s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019037s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.051145s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:36:38+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026723s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018954s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018153s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.053572s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:36:42+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023373s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019788s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019758s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.051737s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:36:59+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026287s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019125s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015019s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018087s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.050311s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:40:53+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024074s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019449s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.037816s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.053946s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:40:57+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027082s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018042s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.017828s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.055572s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:43:32+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024880s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018645s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018194s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.052170s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:45:39+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023261s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018284s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019599s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.053105s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:45:45+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021582s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018025s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016100s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:57:09+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026749s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.320827s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016921s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:57:50+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022645s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018840s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019689s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.053629s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:57:52+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024931s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018434s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015837s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:59:02+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021881s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018134s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015011s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018045s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.049804s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:59:04+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025999s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018480s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020268s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.016113s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:59:15+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027512s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020154s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.016369s ]
+---------------------------------------------------------------
+[ 2019-06-15T09:59:46+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022793s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.019377s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.015929s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:00:30+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025222s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.019313s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.015122s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:04:13+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023392s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.020709s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.040438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018650s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.053511s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:04:16+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023257s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018419s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018277s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.015004s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:05:12+08:00 ] 127.0.0.1 GET dscj.com/member/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022274s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014572s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:05:20+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022851s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.019395s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.016154s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:05:22+08:00 ] 127.0.0.1 GET dscj.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021468s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.013709s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:05:34+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022032s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017539s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.014766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018372s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.052342s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:05:42+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022533s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018827s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.017432s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.051708s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:05:49+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022574s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019207s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.021273s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.015441s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:08:55+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022035s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018358s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018644s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.050439s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:08:58+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025688s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019487s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015863s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020524s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.015881s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:09:03+08:00 ] 127.0.0.1 GET dscj.com/member/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.344923s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.083492s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:10:24+08:00 ] 127.0.0.1 GET dscj.com/member/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022676s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014383s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:10:48+08:00 ] 127.0.0.1 GET dscj.com/member/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023234s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014959s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:16:11+08:00 ] 127.0.0.1 GET dscj.com/member/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022452s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014197s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:17:01+08:00 ] 127.0.0.1 GET dscj.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021936s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019505s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.015165s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:17:01+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021972s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018666s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.015479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019391s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.050547s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:20:42+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025755s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018890s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.017077s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019947s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.053206s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:20:44+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023792s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018714s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.015027s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.019615s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.014743s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:20:46+08:00 ] 127.0.0.1 GET dscj.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025594s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014146s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:25:22+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022388s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.019238s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.029000s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:36:34+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026159s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019133s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.021021s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.054855s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:37:14+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022782s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018961s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018065s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.058915s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:37:17+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058320s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.077968s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.084169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.080776s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.097257s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:37:53+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021878s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017776s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.016204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018639s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.015353s ]
+---------------------------------------------------------------
+[ 2019-06-15T10:39:49+08:00 ] 127.0.0.1 GET dscj.com/member/index/main?spm=m-7-77
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021690s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.014191s ]
+---------------------------------------------------------------
+[ 2019-06-15T11:48:53+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022117s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018981s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.015900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018557s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.050771s ]
+---------------------------------------------------------------
+[ 2019-06-15T11:49:32+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025583s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.021037s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.018349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020183s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.016128s ]
+---------------------------------------------------------------
+[ 2019-06-15T11:49:58+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053386s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018554s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.015915s ]
+---------------------------------------------------------------
+[ 2019-06-15T11:50:32+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023199s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020525s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.017167s ]
+---------------------------------------------------------------
+[ 2019-06-15T12:15:07+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022549s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020531s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.015232s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:55:20+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048688s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.026766s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.026328s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:55:22+08:00 ] 127.0.0.1 GET dscj.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037009s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.022635s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:55:30+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038026s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024471s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.023342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.028698s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.112887s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:56:03+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036296s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.028336s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.022814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.024490s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.107908s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:56:07+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045884s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.112985s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.022331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.044312s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.034084s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:56:32+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029485s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.026410s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.038082s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:56:59+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033839s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.046489s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.036574s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:57:30+08:00 ] 127.0.0.1 GET dscj.com/admin/allcash/index.html?spm=m-163-164-168
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043082s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.028158s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.022211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allcash` [ RunTime:0.026262s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allcash` WHERE  `uid` = 1000000001 LIMIT 1 [ RunTime:0.024290s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allcash` WHERE  `uid` = 1000000001 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.024308s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:57:32+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/card.html?spm=m-163-164-167
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031177s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.027516s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.024873s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:57:55+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033294s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.024825s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.025102s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:58:40+08:00 ] 127.0.0.1 POST dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030074s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.034629s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.023343s ]
+[ sql ] [ SQL ] UPDATE `dy_allmember`  SET `phone` = '13370503344' , `idcard` = '130533198910241410' , `realname` = '薛臣鹤'  WHERE  `id` = 1000000001 [ RunTime:0.023194s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:58:42+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036018s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.025767s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.024070s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:58:42+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/card.html?spm=m-163-164-167
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038889s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.029181s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.025218s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:59:10+08:00 ] 127.0.0.1 POST dscj.com/admin/allmember/card.html?spm=m-163-164-167
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032969s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.026473s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.025936s ]
+[ sql ] [ SQL ] UPDATE `dy_allmember`  SET `bank_num` = '6236680130005137241' , `bank_number` = '105100000017' , `bank_name` = '建设银行' , `bank_phone` = '13370503344' , `province` = '山东省' , `city` = '济南市'  WHERE  `id` = 1000000001 [ RunTime:0.028510s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `id` = 1000000001 LIMIT 1 [ RunTime:0.024211s ]
+[ sql ] [ SQL ] SELECT `phone`,`realname` FROM `dy_allmember` WHERE  `id` = 1000000001 LIMIT 1 [ RunTime:0.022142s ]
+[ sql ] [ SQL ] UPDATE `dy_allmember`  SET `accountMoney` = 99975994.99 , `freezeMoney` = 24000  WHERE  `id` = 1000000001 [ RunTime:0.027004s ]
+---------------------------------------------------------------
+[ 2019-06-15T15:59:13+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/card.html?spm=m-163-164-167
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029304s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.024121s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.022606s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:00:13+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040810s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.028343s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.028872s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:00:29+08:00 ] 127.0.0.1 POST dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042993s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.035560s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.044880s ]
+[ sql ] [ SQL ] UPDATE `dy_allmember`  SET `phone` = '13370503344' , `idcard` = '371302198112261820' , `realname` = '李云玲'  WHERE  `id` = 1000000001 [ RunTime:0.042422s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:00:32+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037100s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.025046s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.023211s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:00:34+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/card.html?spm=m-163-164-167
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031722s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.032857s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.032674s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:00:53+08:00 ] 127.0.0.1 POST dscj.com/admin/allmember/card.html?spm=m-163-164-167
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033076s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.033854s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.027507s ]
+[ sql ] [ SQL ] UPDATE `dy_allmember`  SET `bank_num` = '6226221604019973' , `bank_number` = '305100000013' , `bank_name` = '民生银行' , `bank_phone` = '13370503344' , `province` = '山东省' , `city` = '济南市'  WHERE  `id` = 1000000001 [ RunTime:0.033615s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:00:57+08:00 ] 127.0.0.1 GET dscj.com/admin/allmember/card.html?spm=m-163-164-167
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032774s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.030119s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `key` = '2C47522E2738301ABCB603660355D83B9' LIMIT 1 [ RunTime:0.020259s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:01:59+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034055s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024480s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.023084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.029431s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.089012s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:02:32+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055915s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026182s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.028618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.030620s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.097848s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:02:34+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034554s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026985s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.023198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.026481s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.023332s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:06:18+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031267s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.028983s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.021923s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:06:38+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033841s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.038811s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.024606s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:18:35+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035286s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.027813s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.028580s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:18:37+08:00 ] 127.0.0.1 GET dscj.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028381s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.018616s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:18:47+08:00 ] 127.0.0.1 GET dscj.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041085s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.021948s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:19:06+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033223s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.025985s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.022371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.025446s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.089130s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:19:15+08:00 ] 127.0.0.1 GET dscj.com/member/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030621s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026358s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.022507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.027074s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.111924s ]
+---------------------------------------------------------------
+[ 2019-06-15T16:19:22+08:00 ] 127.0.0.1 POST dscj.com/member/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030600s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.026566s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'member/login/index' LIMIT 1 [ RunTime:0.026545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.025410s ]
+[ sql ] [ SQL ] SELECT `id`,`mysqlName`,`key` FROM `dy_allmember` WHERE  `status` = 1  AND `is_deleted` = 1  AND `id` = 1000000001 LIMIT 1 [ RunTime:0.021838s ]

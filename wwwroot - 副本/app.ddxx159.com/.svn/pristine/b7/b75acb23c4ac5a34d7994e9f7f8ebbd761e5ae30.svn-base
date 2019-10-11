@@ -1,0 +1,113 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">用户手机</label>
+        <div class="layui-input-inline">
+            <input name="phone" value="{$Think.get.phone}" placeholder="请输入用户手机" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">用户姓名</label>
+        <div class="layui-input-inline">
+            <input name="realname" value="{$Think.get.realname}" placeholder="请输入用户姓名" class="layui-input">
+        </div>
+    </div>
+
+    <!-- <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">变动类型</label>
+        <div class="layui-input-inline">
+            <select name="moneyType" class="layui-select">
+                <option value="">所有类型</option>
+                {foreach ["1"=>"收益分配","2"=>"提现申请","3"=>"提现成功","4"=>"提现失败","5"=>"消费扣款","6"=>"账户充值","7"=>"账户扣款"] as $k=>$v}
+                {if $Think.get.moneyType eq "$k"}
+                <option selected="selected" value="{$k}">{$v}</option>
+                {else}
+                <option value="{$k}">{$v}</option>
+                {/if}
+                {/foreach}
+            </select>
+        </div>
+    </div> -->
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">交易时间</label>
+        <div class="layui-input-inline">
+            <input name="add_time" data-time value="{$Think.get.add_time}" placeholder="请选择交易时间" class="layui-input">
+        </div>
+    </div>
+
+	<div class="layui-form-item layui-inline">
+        <label class="layui-form-label">品牌方</label>
+        <div class="layui-input-inline">
+            <select name="allmemberId" class="layui-select">
+                <option value="">所有品牌</option>
+            <?php $allmember=getAllMember();?>
+                <!--{foreach $allmember as $k=>$v}-->
+                {if $Think.get.allmemberId eq $v.id}
+                <option value="{$v.id}" selected="selected">{$v.companyName}</option>
+                {else}
+                <option value="{$v.id}">{$v.companyName}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item layui-inline">
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<script>
+    window.form.render();
+    $('[data-time]').map(function () {
+        window.laydate.render({range: true, elem: this});
+    });
+</script>
+<!-- 表单搜索 结束 -->
+
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    {if empty($list)}
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    {else}
+    <table class="layui-table" lay-size="sm">
+        <thead>
+        <tr>
+            <th class="text-center nowrap">用户手机</th>
+            <th class="text-center nowrap">用户姓名</th>
+            <th class="text-center nowrap">影响金额</th>
+            <th class="text-center nowrap">账户余额</th>
+            <th class="text-center nowrap">冻结金额</th>
+            <th class="text-center nowrap">类型</th>
+            <th class="text-center nowrap">说明</th>
+            <th class="text-center nowrap">时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class="text-center nowrap">{$vo.phone}</td>
+            <td class="text-center nowrap">{$vo.realname}</td>
+            <td class="text-center nowrap">{$vo.affectMoney}</td>
+            <td class="text-center nowrap">{$vo.accountMoney}</td>
+            <td class="text-center nowrap">{$vo.freezeMoney}</td>
+            <td class='text-center'>
+                <!--{foreach ["1"=>"收益分配","2"=>"提现申请","3"=>"提现成功","4"=>"提现失败","5"=>"消费扣款","6"=>"账户充值","7"=>"账户扣款"] as $k=>$v}-->
+                {if $vo.moneyType eq "$k"}{$v}{/if}
+                <!--{/foreach}-->
+            </td>
+            <td class="text-center nowrap">{$vo.info}</td>
+            <td class="text-center nowrap">{$vo.add_time}</td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    {/if}
+</form>
+
+{/block}

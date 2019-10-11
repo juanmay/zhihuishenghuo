@@ -1,0 +1,19 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    {foreach $levels as $vo}
+    <div class="layui-form-item">
+        <label class="layui-form-label">{$vo['name']}</label>
+        <div class="layui-input-block">
+            <input type="text" readonly name="id_{$vo['id']}" value='{$vo.cost_money|default="0.00"}' required="required" title="请输入分润金额" placeholder="请输入分润金额" class="layui-input">
+            <p class="help-block color-desc"><b>推荐一名【{$info['name']}】用户缴费升级，奖励额度，多人关系做级差分润，单位：元。</b></p>
+        </div>
+    </div>
+    {/foreach}
+
+    <div class="hr-line-dashed"></div>
+</form>
+<script type="text/javascript">
+    require(['jquery', 'ckeditor', 'angular'], function () {
+        window.form.render();
+        window.createEditor('[name="info"]', {height: 300});
+    });
+</script>

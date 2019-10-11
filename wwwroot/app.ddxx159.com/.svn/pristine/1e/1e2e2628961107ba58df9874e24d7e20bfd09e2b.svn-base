@@ -1,0 +1,87 @@
+---------------------------------------------------------------
+[ 2019-06-13T11:16:25+08:00 ] 127.0.0.1 GET dscj.com/admin/member/recommend.html?id=137&spm=m-43-44-45&open_type=modal
+[ error ] [8]未定义数组索引: levelName[C:\phpStudy\PHPTutorial\WWW\dscj\runtime\temp\9b9ec1d4e59ae8fc5a6401c92dd14ff7.php:32]
+---------------------------------------------------------------
+[ 2019-06-13T11:16:30+08:00 ] 127.0.0.1 GET dscj.com/admin/member/recommend.html?id=137&spm=m-43-44-45&open_type=modal
+[ error ] [8]未定义数组索引: levelName[C:\phpStudy\PHPTutorial\WWW\dscj\runtime\temp\9b9ec1d4e59ae8fc5a6401c92dd14ff7.php:32]
+---------------------------------------------------------------
+[ 2019-06-13T16:14:39+08:00 ] 127.0.0.1 GET dscj.com/admin/repaymentmember/info.html?id=208&spm=m-145-150-152
+[ error ] [8]未定义数组索引: idcard[C:\phpStudy\PHPTutorial\WWW\dscj\runtime\temp\c33444dc06b29737dc5930bcd2db0ea6.php:21]
+---------------------------------------------------------------
+[ 2019-06-13T16:15:06+08:00 ] 127.0.0.1 GET dscj.com/admin/repaymentmember/info.html?id=208&spm=m-145-150-152
+[ error ] [8]未定义数组索引: idcard[C:\phpStudy\PHPTutorial\WWW\dscj\runtime\temp\c33444dc06b29737dc5930bcd2db0ea6.php:21]
+---------------------------------------------------------------
+[ 2019-06-13T16:38:48+08:00 ] 127.0.0.1 GET dscj.com/admin/login/out.html?spm=m-145-150-152
+[ error ] [0]method not exist:think\db\Query->contect[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Query.php:178]
+---------------------------------------------------------------
+[ 2019-06-13T16:38:49+08:00 ] 127.0.0.1 GET dscj.com/admin/repaymentmember/running.html?spm=m-145-150-151
+[ error ] [0]method not exist:think\db\Query->contect[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Query.php:178]
+---------------------------------------------------------------
+[ 2019-06-13T16:38:52+08:00 ] 127.0.0.1 GET dscj.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [0]method not exist:think\db\Query->contect[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Query.php:178]
+---------------------------------------------------------------
+[ 2019-06-13T16:39:12+08:00 ] 127.0.0.1 GET dscj.com/
+[ error ] [0]method not exist:think\db\Query->contect[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Query.php:178]
+---------------------------------------------------------------
+[ 2019-06-13T16:39:47+08:00 ] 127.0.0.1 GET dscj.com/admin
+[ error ] [0]method not exist:think\db\Query->contect[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Query.php:178]
+---------------------------------------------------------------
+[ 2019-06-13T16:51:53+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ error ] [2]Illegal string offset 'mysqlName'[C:\phpStudy\PHPTutorial\WWW\dscj\application\admin\controller\Login.php:77]
+---------------------------------------------------------------
+[ 2019-06-13T16:52:22+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ error ] [2]Illegal string offset 'mysqlName'[C:\phpStudy\PHPTutorial\WWW\dscj\application\admin\controller\Login.php:77]
+---------------------------------------------------------------
+[ 2019-06-13T16:52:31+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ error ] [2]Illegal string offset 'mysqlName'[C:\phpStudy\PHPTutorial\WWW\dscj\application\admin\controller\Login.php:77]
+---------------------------------------------------------------
+[ 2019-06-13T16:53:01+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ error ] [2]Illegal string offset 'mysqlName'[C:\phpStudy\PHPTutorial\WWW\dscj\application\admin\controller\Login.php:77]
+---------------------------------------------------------------
+[ 2019-06-13T16:53:09+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ error ] [2]Illegal string offset 'mysqlName'[C:\phpStudy\PHPTutorial\WWW\dscj\application\admin\controller\Login.php:77]
+---------------------------------------------------------------
+[ 2019-06-13T16:53:57+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_user' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:54:04+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:54:11+08:00 ] 127.0.0.1 GET dscj.com/admin
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:54:15+08:00 ] 127.0.0.1 GET dscj.com/admin
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:55:09+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_user' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:55:13+08:00 ] 127.0.0.1 POST dscj.com/admin/login.html?spm=
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:55:57+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:57:23+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:57:24+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T16:57:29+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T17:01:12+08:00 ] 127.0.0.1 GET dscj.com/admin/login/index
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T17:44:16+08:00 ] 127.0.0.1 GET dscj.com/admin/login/index
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.system_node' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T17:55:42+08:00 ] 127.0.0.1 POST dscj.com/admin/level/edit.html?id=8&spm=m-43-44-111&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T17:55:54+08:00 ] 127.0.0.1 POST dscj.com/admin/level/edit.html?id=8&spm=m-43-44-111&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-13T17:56:06+08:00 ] 127.0.0.1 POST dscj.com/admin/level/edit.html?id=8&spm=m-43-44-111&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscj\thinkphp\library\think\db\Connection.php:699]

@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2019-06-17T08:35:31+08:00 ] 127.0.0.1 GET dscj.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025119s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.020884s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.016329s ]
+---------------------------------------------------------------
+[ 2019-06-17T08:35:31+08:00 ] 127.0.0.1 GET dscj.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022089s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017751s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.014971s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018539s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.053544s ]

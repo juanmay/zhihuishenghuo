@@ -1,0 +1,658 @@
+---------------------------------------------------------------
+[ 2019-10-09T04:26:06+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[运行时间：0.643182s] [吞吐率：1.55req/s] [内存消耗：3,056.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T07:55:01+08:00 ] 47.101.193.1 GET app.ddxx159.com/
+[运行时间：0.068978s] [吞吐率：14.50req/s] [内存消耗：3,055.47kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T07:55:01+08:00 ] 47.101.193.1 GET app.ddxx159.com/admin/login.html
+[运行时间：0.098353s] [吞吐率：10.17req/s] [内存消耗：3,263.73kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T09:03:03+08:00 ] 47.101.201.242 GET dscjall.diyunkeji.com/
+[运行时间：0.067278s] [吞吐率：14.86req/s] [内存消耗：3,055.51kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T09:03:03+08:00 ] 47.101.201.242 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.086560s] [吞吐率：11.55req/s] [内存消耗：3,263.77kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com//Scripts/jquery-1.7.1.min.js
+[运行时间：0.018946s] [吞吐率：52.78req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/owl-carousel/owl.theme.css
+[运行时间：0.019486s] [吞吐率：51.32req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/footable.sort.js
+[运行时间：0.018801s] [吞吐率：53.19req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/stylesheets/loginstyle.css
+[运行时间：0.014218s] [吞吐率：70.33req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery-1.11.0.min.js
+[运行时间：0.014132s] [吞吐率：70.76req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com//wwwroot/assets/global/plugins/jquery.min.js
+[运行时间：0.014678s] [吞吐率：68.13req/s] [内存消耗：1,665.75kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/lib/jquery.form.js
+[运行时间：0.014537s] [吞吐率：68.79req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/css/footable.core.css
+[运行时间：0.014299s] [吞吐率：69.94req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com//wwwroot/assets/global/plugins/bootstrap/js/bootstrap.min.js
+[运行时间：0.014245s] [吞吐率：70.20req/s] [内存消耗：1,665.83kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.bxslider.min.js
+[运行时间：0.014484s] [吞吐率：69.04req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.fancybox.pack.js
+[运行时间：0.014366s] [吞吐率：69.61req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com//wwwroot/static/js/longai.js
+[运行时间：0.014222s] [吞吐率：70.31req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.fancytree.js
+[运行时间：0.014304s] [吞吐率：69.91req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com//cdn-cgi/apps/head/oC9yDxSpiIysGUE4gFhsZPsOI3o.js
+[运行时间：0.014068s] [吞吐率：71.08req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/css/style.css
+[运行时间：0.014059s] [吞吐率：71.13req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.ui.core.js
+[运行时间：0.014049s] [吞吐率：71.18req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/static/h-ui/js/H-ui.js
+[运行时间：0.014115s] [吞吐率：70.85req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.ui.datepicker.js
+[运行时间：0.013997s] [吞吐率：71.44req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.idTabs.min.js
+[运行时间：0.014256s] [吞吐率：70.15req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:29+08:00 ] 223.104.90.80 GET app.ddxx159.com//wwwroot/assets/global/plugins/simple-line-icons/simple-line-icons.min.css
+[运行时间：0.014178s] [吞吐率：70.53req/s] [内存消耗：1,665.76kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com//wwwroot/assets/global/css/components-rounded.min.css
+[运行时间：0.013996s] [吞吐率：71.45req/s] [内存消耗：1,665.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/footable.paginate.js
+[运行时间：0.014044s] [吞吐率：71.21req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.steps.min.js
+[运行时间：0.014245s] [吞吐率：70.20req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/owl-carousel/owl.carousel.js
+[运行时间：0.014272s] [吞吐率：70.07req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com//Scripts/jquery.unobtrusive-ajax.min.js
+[运行时间：0.015029s] [吞吐率：66.54req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/css/jquery.bxslider.css
+[运行时间：0.014059s] [吞吐率：71.13req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.validate.min.js
+[运行时间：0.018851s] [吞吐率：53.05req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/footable.js
+[运行时间：0.021315s] [吞吐率：46.92req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/css/mycustom.css
+[运行时间：0.020781s] [吞吐率：48.12req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com//static/js/hAdmin.js
+[运行时间：0.016537s] [吞吐率：60.47req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com//LoginStyle/css/index.css
+[运行时间：0.032334s] [吞吐率：30.93req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.ui.widget.js
+[运行时间：0.033952s] [吞吐率：29.45req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/css/jquery.fancybox.css
+[运行时间：0.033728s] [吞吐率：29.65req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/css/base/jquery.ui.all.css
+[运行时间：0.033468s] [吞吐率：29.88req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/functions.js
+[运行时间：0.034781s] [吞吐率：28.75req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/css/jquery.orgchart.css
+[运行时间：0.033593s] [吞吐率：29.77req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/js/jquery.orgchart.js
+[运行时间：0.034717s] [吞吐率：28.80req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/lib/jquery/1.9.1/jquery.min.js
+[运行时间：0.035617s] [吞吐率：28.08req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/owl-carousel/jquery-1.9.1.min.js
+[运行时间：0.036222s] [吞吐率：27.61req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/owl-carousel/owl.carousel.css
+[运行时间：0.038443s] [吞吐率：26.01req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T12:50:30+08:00 ] 223.104.90.80 GET app.ddxx159.com/css/jquery.steps.css
+[运行时间：0.017764s] [吞吐率：56.29req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T14:53:24+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin.html
+[运行时间：0.064377s] [吞吐率：15.53req/s] [内存消耗：3,057.11kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T14:53:24+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.082462s] [吞吐率：12.13req/s] [内存消耗：3,265.30kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:25+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[运行时间：0.108434s] [吞吐率：9.22req/s] [内存消耗：3,277.72kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-78',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:26+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.103185s] [吞吐率：9.69req/s] [内存消耗：3,265.98kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:28+08:00 ] 112.229.90.95 POST dscjall.diyunkeji.com/admin/login.html?spm=
+[运行时间：0.257111s] [吞吐率：3.89req/s] [内存消耗：3,033.80kb] [文件加载：82]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://dscjall.diyunkeji.com',
+  'accept' => '*/*',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => '',
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T14:53:29+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin.html
+[运行时间：0.234885s] [吞吐率：4.26req/s] [内存消耗：4,501.98kb] [文件加载：133]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:29+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[运行时间：0.052069s] [吞吐率：19.21req/s] [内存消耗：2,999.91kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-78',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:32+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[运行时间：0.095415s] [吞吐率：10.48req/s] [内存消耗：3,205.91kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:34+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.107382s] [吞吐率：9.31req/s] [内存消耗：3,354.27kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\menu\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:36+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[运行时间：0.102689s] [吞吐率：9.74req/s] [内存消耗：3,205.91kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T14:54:03+08:00 ] 112.229.90.95 POST dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[运行时间：0.235137s] [吞吐率：4.25req/s] [内存消耗：3,205.66kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16cd77796446d-004fd03220cfa4-3a614f0b-144000-16cd7779647198; s8fa1198b=886f3172b302ab809180abbdee21804f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://dscjall.diyunkeji.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-09T15:48:03+08:00 ] 183.136.190.40 GET app.ddxx159.com/
+[运行时间：0.144334s] [吞吐率：6.93req/s] [内存消耗：3,056.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T16:58:33+08:00 ] 27.38.41.18 GET app.ddxx159.com/index/common/register/code/2WRQay.html
+[运行时间：0.073607s] [吞吐率：13.59req/s] [内存消耗：2,945.90kb] [文件加载：76]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.8(0x17000820) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '2WRQay',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T17:56:36+08:00 ] 112.224.1.12 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.017266s] [吞吐率：57.92req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T17:56:37+08:00 ] 112.224.1.12 POST app.ddxx159.com/api/index/index
+[运行时间：0.014756s] [吞吐率：67.77req/s] [内存消耗：1,664.41kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T19:22:29+08:00 ] 223.104.1.66 GET app.ddxx159.com/index/common/register/code/5GAPTd.html
+[运行时间：0.671933s] [吞吐率：1.49req/s] [内存消耗：2,947.29kb] [文件加载：76]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '223.104.1.66',
+  'x-forwarded-for' => '223.104.1.66',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; V1732A Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044904 Mobile Safari/537.36 MMWEBID/4339 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/4G Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'app.ddxx159.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '5GAPTd',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T19:22:30+08:00 ] 223.104.1.66 GET app.ddxx159.com/favicon.ico
+[运行时间：0.014776s] [吞吐率：67.68req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-09T19:22:31+08:00 ] 112.60.1.73 GET app.ddxx159.com/
+[运行时间：0.943992s] [吞吐率：1.06req/s] [内存消耗：3,056.85kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'app.ddxx159.com',
+  'content-length' => '0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T19:22:32+08:00 ] 157.255.172.22 GET app.ddxx159.com/
+[运行时间：0.993782s] [吞吐率：1.01req/s] [内存消耗：3,056.85kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'app.ddxx159.com',
+  'content-length' => '0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-09T19:23:29+08:00 ] 101.89.29.97 GET app.ddxx159.com/index/common/register/code/5GAPTd.html
+[运行时间：3.485273s] [吞吐率：0.29req/s] [内存消耗：2,945.30kb] [文件加载：76]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+)
+[ info ] [ PARAM ] array (
+  'code' => '5GAPTd',
+)
+[ info ] [ DB ] INIT mysql

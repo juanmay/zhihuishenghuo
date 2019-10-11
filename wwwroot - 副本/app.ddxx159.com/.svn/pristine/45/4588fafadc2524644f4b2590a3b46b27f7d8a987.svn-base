@@ -1,0 +1,86 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户手机</label>
+        <div class="layui-input-block">
+            <input type="text" readonly value='{$vo.phone|default=""}' class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，保证手机号的唯一性</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户等级</label>
+        <div class="layui-input-inline">
+            <select name="level" disabled class="layui-select" style="display:block;">
+            <?php if (!isset($vo['level'])) { $vo['level'] = ''; } $level = getMemberLevel(); ?>
+                <!--{foreach $level as $v}-->
+                {if $vo.level eq $v['id']}
+                <option selected="selected" value="{$v['id']}">{$v['name']}</option>
+                {else}
+                <option value="{$v['id']}">{$v['name']}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+            <p class="help-block color-desc"><b>必选</b>，用户可以获得等级差价分润</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户姓名</label>
+        <div class="layui-input-block">
+            <input type="text" readonly value='{$vo.realname|default=""}' class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，用户姓名</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">账户余额</label>
+        <div class="layui-input-block">
+            <input type="text" readonly value='{$vo.accountMoney|default=""}' class="layui-input">
+            <p class="help-block color-desc">用户可提现金额</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">冻结金额</label>
+        <div class="layui-input-block">
+            <input type="text" readonly value='{$vo.freezeMoney|default=""}' class="layui-input">
+            <p class="help-block color-desc">用户提现冻结金额</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">调整类型</label>
+        <div class='col-sm-8'>
+            <label class="think-radio">
+                <input checked type="radio" name="modType" value="accountMoney" title="账户余额" lay-ignore>账户余额
+                <input type="radio" name="modType" value="freezeMoney" title="冻结金额" lay-ignore>冻结金额
+            </label>
+            <p class="help-block">调整金额类型。</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">调整额度</label>
+        <div class="layui-input-block">
+            <input type="text" name="modMoney"  value=''  required="required" title="请输入调整额度" placeholder="请输入调整额度" class="layui-input">
+            <p class="help-block color-desc">调整客户需要变动的金额，降低填写负数。</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">调整说明</label>
+        <div class="layui-input-block">
+            <input type="text" name="modInfo" required="required" value='{$vo.modInfo|default=""}'  title="请输入调整说明" placeholder="请输入调整说明" class="layui-input">
+            <p class="help-block color-desc">本次调整额度详细说明</p>
+        </div>
+    </div>
+
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="layui-form-item text-center">
+        {if isset($vo['id'])}<input type='hidden' value='{$vo.id|default="0"}' name='id'>{/if}
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消操作吗？" data-close>取消操作</button>
+    </div>
+</form>

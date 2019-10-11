@@ -1,0 +1,171 @@
+---------------------------------------------------------------
+[ 2019-10-07T04:33:35+08:00 ] 47.101.195.242 GET dscjall.diyunkeji.com/
+[运行时间：0.676953s] [吞吐率：1.48req/s] [内存消耗：3,055.50kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-07T04:33:36+08:00 ] 47.101.195.242 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.107067s] [吞吐率：9.34req/s] [内存消耗：3,263.77kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-07T04:40:50+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[运行时间：0.071006s] [吞吐率：14.08req/s] [内存消耗：3,056.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-07T06:56:53+08:00 ] 47.101.187.185 GET app.ddxx159.com/
+[运行时间：0.068853s] [吞吐率：14.52req/s] [内存消耗：3,055.47kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-07T06:56:54+08:00 ] 47.101.187.185 GET app.ddxx159.com/admin/login.html
+[运行时间：0.077888s] [吞吐率：12.84req/s] [内存消耗：3,263.73kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-07T12:44:17+08:00 ] 223.104.65.226 POST app.ddxx159.com/api/index/index
+[运行时间：0.016747s] [吞吐率：59.71req/s] [内存消耗：1,664.41kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-07T12:44:17+08:00 ] 223.104.65.226 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.016622s] [吞吐率：60.16req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-07T16:33:25+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[运行时间：0.058159s] [吞吐率：17.19req/s] [内存消耗：3,056.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-07T19:07:35+08:00 ] 117.136.53.190 POST app.ddxx159.com/api/index/index
+[运行时间：0.015813s] [吞吐率：63.24req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-07T19:07:35+08:00 ] 117.136.53.190 POST app.ddxx159.com/api/index/index
+[运行时间：0.015933s] [吞吐率：62.76req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-07T19:07:35+08:00 ] 117.136.53.190 POST app.ddxx159.com/api/user/index
+[运行时间：0.013029s] [吞吐率：76.75req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-07T19:07:37+08:00 ] 117.136.53.190 POST app.ddxx159.com/api/user/index
+[运行时间：0.013460s] [吞吐率：74.29req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-07T19:07:37+08:00 ] 117.136.53.190 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.013585s] [吞吐率：73.61req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-07T19:13:02+08:00 ] 117.136.53.190 POST app.ddxx159.com/api/user/index
+[运行时间：0.444361s] [吞吐率：2.25req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+
+---------------------------------------------------------------
+[ 2019-10-07T20:40:21+08:00 ] 47.98.104.44 GET app.ddxx159.com/
+[运行时间：0.285509s] [吞吐率：3.50req/s] [内存消耗：3,055.47kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-07T20:40:21+08:00 ] 47.98.104.44 GET app.ddxx159.com/admin/login.html
+[运行时间：0.103241s] [吞吐率：9.69req/s] [内存消耗：3,263.73kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]

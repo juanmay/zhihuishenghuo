@@ -1,0 +1,29 @@
+{extend name="admin@public/content"}
+
+{block name="content"}
+<form autocomplete="off" onsubmit="return false;" action="{:request()->url()}" data-auto="true" method="post" class='form-horizontal layui-form padding-top-20'>
+
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">积分说明</label>
+        <div class="layui-input-block">
+            <textarea class="layui-textarea" name="pointsContent" required="required" placeholder="请输入积分说明">{:sysconf('pointsContent')}</textarea>
+        </div>
+    </div>
+
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="col-sm-4 col-sm-offset-2">
+        <div class="layui-form-item text-center">
+            <button class="layui-btn" type="submit">保存配置</button>
+        </div>
+    </div>
+
+</form>
+<script type="text/javascript">
+    require(['jquery', 'ckeditor', 'angular'], function () {
+        window.createEditor('[name="pointsContent"]', {height: 400,width:800});
+    });
+</script>
+{/block}

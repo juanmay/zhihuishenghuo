@@ -1,0 +1,73 @@
+{extend name="admin@public/content"}
+
+{block name="content"}
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+	<div class="layui-form-item layui-inline">
+        <label class="layui-form-label">品牌方</label>
+        <div class="layui-input-inline">
+            <select name="allmemberId" class="layui-select" lay-filter='allmemberId'>
+            <?php $allmember=getAllMember();?>
+                <!--{foreach $allmember as $k=>$v}-->
+                {if $Think.get.allmemberId eq $v.id}
+                <option value="{$v.id}" selected="selected">{$v.companyName}</option>
+                {else}
+                <option value="{$v.id}">{$v.companyName}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item layui-inline" style='display:none;'>
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<script>
+    window.form.render();
+    $('[data-time]').map(function () {
+        window.laydate.render({range: true, elem: this});
+    });
+    form.on('select(allmemberId)', function(data){
+    	  $('.layui-btn-primary .layui-icon').click();
+    }); 
+</script>
+<!-- 表单搜索 结束 -->
+<div class="layui-card">
+<table class="layui-table">
+   <tbody>
+       <tr>
+          <td class='text-center'>总活跃量&nbsp;{$day[1]}</td>
+          <td class='text-center'>近一周活跃量&nbsp;{$day[2]}</td>
+          <td class='text-center'>近一个月活跃量&nbsp;{$day[3]}</td>
+          <td class='text-center'>近三个月活跃量&nbsp;{$day[4]}</td>
+          <td class='text-center'>近六个月活跃量&nbsp;{$day[5]}</td>
+       </tr>
+    </tbody>
+</table>
+<table class="layui-table">
+    <tbody>
+       <tr>
+          <td style="width: 50%;"><div id="speedChartMain0" style="height:400px;"class="layui-card"></div></td>
+          <td style="width: 50%;"><div id="speedChartMain1" style="height:400px;"class="layui-card"></div</td>
+       </tr>
+    </tbody>
+
+</table>
+</div>
+<script type="text/javascript" src="__STATIC__/echarts/echarts.js"></script>
+<script type="text/javascript" src="__STATIC__/echarts/echarts.min.js"></script>
+<script type="text/javascript" src="__STATIC__/echarts/echarts-gl.min.js"></script>
+<script type="text/javascript" src="__STATIC__/echarts/ecStat.min.js"></script>
+<script type="text/javascript" src="__STATIC__/echarts/dataTool.min.js"></script>
+<script type="text/javascript" src="__STATIC__/echarts/china.js"></script>
+<script type="text/javascript" src="__STATIC__/echarts/world.js"></script>
+<script type="text/javascript" src="__STATIC__/echarts/bmap.min.js"></script>
+<script type="text/javascript">
+var userLineAll={$userLineAll|raw};
+var timeX={$timeX|raw};
+var userLineAll2={$userLineAll2|raw};
+var timeX2={$timeX2|raw};
+</script>
+<script src="__STATIC__/echartsjs/memberlogin.js" type="text/javascript"></script>
+{/block}

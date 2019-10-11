@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{:sysconf('site_name')}监控界面</title>
+</head>
+<body>
+<h1 style="with:100%;text-align:center;">{:sysconf('site_name')}自动监控执行界面</h1>
+<h3 style="with:100%;text-align:center;color:red;">该界面禁止关闭，关闭后系统不再执行计划</h3>
+<h3 style="with:100%;text-align:center;">服务器重启后在服务器浏览器打开下面网址</h3>
+<h3 style="with:100%;text-align:center;color:green;">http://{$_SERVER['HTTP_HOST']}{:url('auto')}</h3>
+<h3 style="with:100%;text-align:center;color:red;">该界面打开后禁止在浏览器内刷新！！！</h3>
+<h3 style="with:100%;text-align:center;">距离下次执行计划还有<b style="color:red;" class="time">0</b>秒</h3>
+<h3 style="with:100%;text-align:center;color:blue;">本次执行时间：<b>{$time}</b></h3>
+</body>
+<script src="__STATIC__/index/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    // 计划每次间隔时间，单位秒
+    var time = 5;
+    // 计划执行函数
+	function auto(){
+		if (time>=0) {
+			if(time<10){
+				time = "0"+time;
+			}
+		    $(".time").html(time);
+		    time -- ;
+		    setTimeout(auto,1000);
+		}else{
+			window.location.href='{:url('auto')}'+"?time="+getNowFormatDate();
+		}
+	}
+	function getNowFormatDate() {
+	    var date = new Date();
+	    var month = date.getMonth() + 1;
+	    var strDate = date.getDate();
+	    if (month >= 1 && month <= 9) {
+	        month = "0" + month;
+	    }
+	    if (strDate >= 0 && strDate <= 9) {
+	        strDate = "0" + strDate;
+	    }
+	    var currentdate = date.getFullYear() + month + strDate
+	             + date.getHours()  + date.getMinutes()
+	            + date.getSeconds();
+	    return currentdate;
+	}
+	auto();
+	<?php if ($open): ?>
+	window.open('<?php echo SITE_URL; ?>{:url('index')}');
+	<?php endif ?>
+</script>
+</html>

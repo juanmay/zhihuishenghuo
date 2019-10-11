@@ -1,0 +1,99 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户手机</label>
+        <div class="layui-input-block">
+            <input type="text" name="phone" value='{$info.phone|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户姓名</label>
+        <div class="layui-input-block">
+            <input type="text" name="realname" value='{$info.realname|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">身份证号</label>
+        <div class="layui-input-block">
+            <input type="text" name="idcard" value='{$info.idcard|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">收款通道</label>
+        <div class="layui-input-block">
+            <input type="text" name="type" value='{foreach ["xf"=>"先锋","yb"=>"易宝","cj"=>"畅捷"] as $k=>$v}{if $info.type eq "$k"}{$v}{/if}{/foreach}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">收款单号</label>
+        <div class="layui-input-block">
+            <input type="text" name="order_no" value='{$info.order_no|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">出账卡号</label>
+        <div class="layui-input-block">
+            <input type="text" name="credit_card_num" value='{$info.credit_card_num|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">出账银行</label>
+        <div class="layui-input-block">
+            <input type="text" name="credit_card_name" value='{$info.credit_card_name|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">入账卡号</label>
+        <div class="layui-input-block">
+            <input type="text" name="debit_card_num" value='{$info.debit_card_num|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">入账银行</label>
+        <div class="layui-input-block">
+            <input type="text" name="debit_card_name" value='{$info.debit_card_name|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">收款金额</label>
+        <div class="layui-input-block">
+            <input type="text" name="money" value='{$info.money|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">手续费用</label>
+        <div class="layui-input-block">
+            <input type="text" name="fee_money" value='{$info.fee_money|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">入账金额</label>
+        <div class="layui-input-block">
+            <input type="text" name="can_money" value='{$info['money']-$info['fee_money']|sprintf="%.2f",###}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">订单状态</label>
+        <div class="layui-input-block">
+            <input type="text" name="status" value='{foreach ["0"=>"未支付","1"=>"支付中","2"=>"支付失败","3"=>"支付成功","4"=>"提现中","5"=>"提现失败","6"=>"已完成"] as $k=>$v}{if $info.status eq "$k"}{$v}{/if}
+                {/foreach}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">处理信息</label>
+        <div class="layui-input-block">
+            <input type="text" name="deal_info" value='{$info.deal_info|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">交易时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="add_time" value='{$info.add_time|default="---"}' readonly class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item text-center">
+        <button class="layui-btn layui-btn-danger" type='button' data-close>关闭</button>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+</form>

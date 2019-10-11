@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="recss.css">
+<title>注册</title>
+</head>
+
+<body style="background:url(zhucbj.png);background-size:cover;">
+<div class="fix-top">
+	<div class="box">
+        <!-- <a href="#"><img src="return.png"></a> -->
+        <p>注册</p>
+    </div>
+</div>
+
+<div class="top">
+	<img src="logo_zc.png">
+</div>
+
+<div class="lb_re">
+	<div class="box">
+    	<ul>
+        	<li>
+            	<img src="li1.png">
+                <input placeholder="请输入手机号">
+            </li>
+            <li>
+            	<img src="li2.png">
+                <input placeholder="请输入密码">
+            </li>
+            <li>
+            	<img src="li3.png">
+                <input placeholder="请输入验证码">
+                <div class="yam">
+                    <input type="button" id="btn" class="btn_mfyzm" value="获取验证码" />
+<script type="text/javascript">
+var wait=60;
+document.getElementById("btn").disabled = false;   
+function time(o) {
+		if (wait == 0) {
+			o.removeAttribute("disabled");           
+			o.value="获取验证码";
+			wait = 60;
+		} else {
+			o.setAttribute("disabled", true);
+			o.value="重新发送(" + wait + ")";
+			wait--;
+			setTimeout(function() {
+				time(o)
+			},
+			1000)
+		}
+	}
+document.getElementById("btn").onclick=function(){time(this);}
+</script> 
+                </div> 
+            </li>
+            <li>
+            	<img src="li4.png">
+                <input value="15422886933" disabled="disabled">
+            </li>
+        </ul>
+        <a href="#" class="zhuc">注册</a>
+        <span class="xiey">点击注册，即代表您同意<a href="#">《注册协议》</a></span>
+    </div>
+</div>
+
+</body>
+</html>

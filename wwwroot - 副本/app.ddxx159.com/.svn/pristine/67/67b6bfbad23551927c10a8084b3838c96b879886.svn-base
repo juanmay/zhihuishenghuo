@@ -1,0 +1,288 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">银行名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="name" value='{$vo.name|default=""}' required="required" title="请输入银行名称" placeholder="请输入银行名称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写银行名称（如：中国银行）</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">银行图标</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.logo|default='/static/logo.jpg'}"/>
+            <input type="hidden" name="logo" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.logo|default='/static/logo.jpg'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="logo">上传图片</a>
+            <p class="help-block">建议上传图标的尺寸为200x200px，此图标用于APP银行展示。</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">银行编号</label>
+        <div class="layui-input-block">
+            <input type="text" name="code" value='{$vo.code|default=""}' required="required" title="请输入银行名称" placeholder="请输入银行名称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写银行编号（如：BOC）</p>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">银行色值</label>
+        <div class="layui-input-block">
+            <input type="color" name="color" value='{$vo.color|default=""}' required="required" title="请输入银行名称" placeholder="请输入银行名称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写银行色值（如：#e64646）</p>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">银行联行号</label>
+        <div class="layui-input-block">
+            <input type="text" name="number" value='{$vo.number|default=""}' required="required" title="请输入银行名称" placeholder="请输入银行名称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写银行联行号（如：104100000004）</p>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷路由渠道</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_type" value='{$vo.cj_type|default=""}' required="required" title="请输入产品编号" placeholder="请输入产品编号" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写畅捷路由渠道（101002,110002,110001,101001,1000,110003）</p>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷银行编号</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_num" value='{$vo.cj_num|default=""}' required="required" title="请输入银行名称" placeholder="请输入银行名称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写畅捷银行编号（如：104）</p>
+        </div>
+    </div>
+ 
+    <div class="layui-form-item">
+        <label class="layui-form-label">银行排序</label>
+        <div class="layui-input-block">
+            <input type="text" name="sort" value='{$vo.sort|default=""}' required="required" title="请输入银行银行排序" placeholder="请输入银行银行排序" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写银行排序</p>
+        </div>
+    </div>
+
+    <!-- 畅捷 -->
+    <div class="form-group">
+        <label class="layui-form-label">畅捷cj</label>
+        <div class='col-sm-8'>
+            <?php  if (!isset($vo['is_cj'])) { $vo['is_cj'] = '1'; } ?>
+            {foreach ['0'=>'不支持','1'=>'支持'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if $vo['is_cj'] eq $k}-->
+                <input checked type="radio" name="is_cj" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="is_cj" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">cj单笔限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_singlemoney" value='{$vo.cj_singlemoney|default=""}' required="required" title="请输入单笔限额" placeholder="请输入单笔限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">cj单日限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_daymoney" value='{$vo.cj_daymoney|default=""}' required="required" title="请输入单日限额" placeholder="请输入单日限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">cj交易时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="cj_tradetime" value='{$vo.cj_tradetime|default=""}' required="required" title="请输入交易时间" placeholder="请输入交易时间" class="layui-input">
+        </div>
+    </div>
+
+
+    <!-- 畅捷 -->
+    <div class="form-group">
+        <label class="layui-form-label">酷宝大额kb</label>
+        <div class='col-sm-8'>
+            <?php  if (!isset($vo['is_kb'])) { $vo['is_kb'] = '1'; } ?>
+            {foreach ['0'=>'不支持','1'=>'支持'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if $vo['is_kb'] eq $k}-->
+                <input checked type="radio" name="is_kb" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="is_kb" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">kb单笔限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="kb_singlemoney" value='{$vo.kb_singlemoney|default=""}' required="required" title="请输入单笔限额" placeholder="请输入单笔限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">kb单日限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="kb_daymoney" value='{$vo.kb_daymoney|default=""}' required="required" title="请输入单日限额" placeholder="请输入单日限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">kb交易时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="kb_tradetime" value='{$vo.kb_tradetime|default=""}' required="required" title="请输入交易时间" placeholder="请输入交易时间" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">kb路由渠道</label>
+        <div class="layui-input-block">
+            <input type="text" name="kb_type" value='{$vo.kb_type|default=""}' required="required" title="请输入产品编号" placeholder="请输入产品编号" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写酷宝路由渠道（55,45,35）</p>
+        </div>
+    </div>
+
+
+    <!-- 畅捷 -->
+    <div class="form-group">
+        <label class="layui-form-label">酷宝小额kbm</label>
+        <div class='col-sm-8'>
+            <?php  if (!isset($vo['is_kb_min'])) { $vo['is_kb_min'] = '1'; } ?>
+            {foreach ['0'=>'不支持','1'=>'支持'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if $vo['is_kb_min'] eq $k}-->
+                <input checked type="radio" name="is_kb_min" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="is_kb_min" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">kbm单笔限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="kb_min_singlemoney" value='{$vo.kb_min_singlemoney|default=""}' required="required" title="请输入单笔限额" placeholder="请输入单笔限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">kbm单日限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="kb_min_daymoney" value='{$vo.kb_min_daymoney|default=""}' required="required" title="请输入单日限额" placeholder="请输入单日限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">kbm交易时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="kb_min_tradetime" value='{$vo.kb_min_tradetime|default=""}' required="required" title="请输入交易时间" placeholder="请输入交易时间" class="layui-input">
+        </div>
+    </div>
+
+
+    <!-- 通联 -->
+    <div class="form-group">
+        <label class="layui-form-label">通联tl</label>
+        <div class='col-sm-8'>
+            <?php  if (!isset($vo['is_tl'])) { $vo['is_tl'] = '1'; } ?>
+            {foreach ['0'=>'不支持','1'=>'支持'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if $vo['is_tl'] eq $k}-->
+                <input checked type="radio" name="is_tl" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="is_tl" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">tl单笔限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="tl_singlemoney" value='{$vo.tl_singlemoney|default=""}' required="required" title="请输入单笔限额" placeholder="请输入单笔限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">tl单日限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="tl_daymoney" value='{$vo.tl_daymoney|default=""}' required="required" title="请输入单日限额" placeholder="请输入单日限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">tl交易时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="tl_tradetime" value='{$vo.tl_tradetime|default=""}' required="required" title="请输入交易时间" placeholder="请输入交易时间" class="layui-input">
+        </div>
+    </div>
+
+
+
+    <!-- 先锋 -->
+    <div class="form-group">
+        <label class="layui-form-label">先锋收款</label>
+        <div class='col-sm-8'>
+            <?php  if (!isset($vo['is_xf'])) { $vo['is_xf'] = '1'; } ?>
+            {foreach ['0'=>'不支持','1'=>'支持'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if $vo['is_xf'] eq $k}-->
+                <input checked type="radio" name="is_xf" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="is_xf" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">xf单笔限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="xf_singlemoney" value='{$vo.xf_singlemoney|default=""}' required="required" title="请输入单笔限额" placeholder="请输入单笔限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">xf单日限额</label>
+        <div class="layui-input-block">
+            <input type="text" name="xf_daymoney" value='{$vo.xf_daymoney|default=""}' required="required" title="请输入单日限额" placeholder="请输入单日限额" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">xf交易时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="xf_tradetime" value='{$vo.xf_tradetime|default=""}' required="required" title="请输入交易时间" placeholder="请输入交易时间" class="layui-input">
+        </div>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="layui-form-item text-center">
+        {if isset($vo['id'])}<input type='hidden' value='{$vo.id|default=""}' name='id'>{/if}
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消操作吗？" data-close>取消操作</button>
+    </div>
+</form>

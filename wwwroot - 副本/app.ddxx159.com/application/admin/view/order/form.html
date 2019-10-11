@@ -1,0 +1,97 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    <div class="form-group">
+        <label class="layui-form-label">商品图片</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.goodsImage|default='/static/goods.png'}"/>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="goodsName" value='{$vo.goodsName|default=""}' readonly title="" placeholder="" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品数量</label>
+        <div class="layui-input-block">
+            <input type="text" name="goodsNum" value='{$vo.goodsNum|default=""}' readonly title="" placeholder="" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">订单编号</label>
+        <div class="layui-input-block">
+            <input type="text" name="orderNo" value='{$vo.orderNo|default=""}' readonly title="" placeholder="" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">收货手机</label>
+        <div class="layui-input-block">
+            <input type="text" name="phone" value='{$vo.phone|default=""}' title="请输入收货手机" placeholder="请输入收货手机" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">收货姓名</label>
+        <div class="layui-input-block">
+            <input type="text" name="realname" value='{$vo.realname|default=""}' title="请输入收货姓名" placeholder="请输入收货姓名" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">收货地址</label>
+        <div class="layui-input-block">
+            <input type="text" name="address" value='{$vo.address|default=""}' title="请输入收货地址" placeholder="请输入收货地址" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">下单时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="add_time" value='{$vo.add_time}' readonly="" title="" placeholder="" class="layui-input">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">状态</label>
+        <div class='col-sm-8'>
+            {foreach ['0'=>'待发货','1'=>'已发货'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if $vo['status'] eq $k}-->
+                <input checked type="radio" name="status" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="status" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">物流方式</label>
+        <div class="layui-input-block">
+            <input type="text" name="expressName" value='{$vo.expressName}' title="请输入物流方式" placeholder="请输入物流方式" class="layui-input">
+            <p class="help-block color-desc"><b>发货必填</b>，快递公司名称</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">物流单号</label>
+        <div class="layui-input-block">
+            <input type="text" name="expressNo" value='{$vo.expressNo}' title="请输入物流单号" placeholder="请输入物流单号" class="layui-input">
+            <p class="help-block color-desc"><b>发货必填</b>，快递单号</p>
+        </div>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="layui-form-item text-center">
+        {if isset($vo['id'])}<input type='hidden' value='{$vo.id|default="0"}' name='id'>{/if}
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消编辑吗？" data-close>取消编辑</button>
+    </div>
+</form>

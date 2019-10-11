@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+[ 2019-09-30T07:56:17+08:00 ] 47.100.207.215 GET app.ddxx159.com/
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2019-09-30T09:04:13+08:00 ] 113.127.158.88 GET app.ddxx159.com/index/common/app.html
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2019-09-30T09:04:58+08:00 ] 153.118.206.79 GET app.ddxx159.com/index/common/app.html
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2019-09-30T09:04:59+08:00 ] 153.118.206.79 GET app.ddxx159.com/index/common/app.html
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2019-09-30T09:05:53+08:00 ] 61.151.178.166 GET app.ddxx159.com/index/common/app.html
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2019-09-30T09:06:33+08:00 ] 112.229.90.95 GET app.ddxx159.com/index/common/app.html
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2019-09-30T09:07:32+08:00 ] 61.151.178.166 GET app.ddxx159.com/index/common/app.html
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wwwroot\app.ddxx159.com\thinkphp\library\think\db\Connection.php:526]

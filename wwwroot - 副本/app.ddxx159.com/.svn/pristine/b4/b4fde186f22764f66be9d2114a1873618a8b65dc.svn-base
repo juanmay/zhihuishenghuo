@@ -1,0 +1,144 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">用户手机</label>
+        <div class="layui-input-inline">
+            <input name="phone" value="{$Think.get.phone}" placeholder="请输入用户手机" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">用户姓名</label>
+        <div class="layui-input-inline">
+            <input name="realname" value="{$Think.get.realname}" placeholder="请输入用户姓名" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">实名状态</label>
+        <div class="layui-input-inline">
+            <select name="realnameStatus" class="layui-select">
+                <option value="">所有用户</option>
+                <!--{foreach ["1"=>"已实名","0"=>"未实名"] as $k=>$v}-->
+                {if $Think.get.realnameStatus eq "$k"}
+                <option selected="selected" value="{$k}">{$v}</option>
+                {else}
+                <option value="{$k}">{$v}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">用户等级</label>
+        <div class="layui-input-inline">
+            <select name="level" class="layui-select">
+                <option value="">所有用户</option>
+                <!--{foreach :getMemberLevel($Think.get.allmemberId) as $v}-->
+                {if $Think.get.level eq $v.id}
+                <option selected="selected" value="{$v.id}">{$v.name}</option>
+                {else}
+                <option value="{$v.id}">{$v.name}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">注册时间</label>
+        <div class="layui-input-inline">
+            <input name="regTime" data-time value="{$Think.get.regTime}" placeholder="请选择注册时间" class="layui-input">
+        </div>
+    </div>
+
+	<div class="layui-form-item layui-inline">
+        <label class="layui-form-label">品牌方</label>
+        <div class="layui-input-inline">
+            <select name="allmemberId" class="layui-select">
+            <?php $allmember=getAllMember();?>
+                <!--{foreach $allmember as $k=>$v}-->
+                {if $Think.get.allmemberId eq $v.id}
+                <option value="{$v.id}" selected="selected">{$v.companyName}</option>
+                {else}
+                <option value="{$v.id}">{$v.companyName}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item layui-inline">
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<script>
+    window.form.render();
+    $('[data-time]').map(function () {
+        window.laydate.render({range: true, elem: this});
+    });
+</script>
+<!-- 表单搜索 结束 -->
+
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    {if empty($list)}
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    {else}
+    <table class="layui-table" lay-size="sm">
+        <thead>
+        <tr>
+            <th class="text-center nowrap">头像</th>
+            <th class="text-center nowrap">用户手机</th>
+            <th class="text-center nowrap">用户姓名</th>
+            <th class="text-center nowrap">推荐人</th>
+            <th class="text-center nowrap">用户等级</th>
+            <th class="text-center nowrap">账户余额</th>
+            <th class="text-center nowrap">冻结余额</th>
+            <th class="text-center nowrap">累计收益</th>
+            <th class="text-center nowrap">实名状态</th>
+            <th class="text-center nowrap">用户状态</th>
+            <th class="text-center nowrap">注册时间</th>
+            <th class="text-center nowrap">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class="text-center nowrap">
+                <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.avatar|default='/static/avatar.png'}"/>
+            </td>
+            <td class="text-center nowrap">{$vo.phone}</td>
+            <td class="text-center nowrap">{$vo.realname}</td>
+            <td class="text-center nowrap">{:getMember($vo['recommendId'],$allmemberId)}</td>
+            <td class="text-center nowrap">{:getMemberLevelName($vo['level'],$allmemberId)}</td>
+            <td class="text-center nowrap">￥{$vo.accountMoney}</td>
+            <td class="text-center nowrap">￥{$vo.freezeMoney}</td>
+            <td class="text-center nowrap">￥{$vo.bonusMoney}</td>
+            <td class='text-center'>
+                {if $vo.realnameStatus eq 0}<span>未实名</span>{elseif $vo.realnameStatus eq 1}<span class="color-green">已实名</span>{/if}
+            </td>
+            <td class='text-center'>
+                {if $vo.status eq 0}<span>禁用</span>{elseif $vo.status eq 1}<span class="color-green">启用</span>{/if}
+            </td>
+            <td class="text-center nowrap">{$vo.regTime}</td>
+            <td class='text-center notselect'>
+
+                {if auth("$classuri/downrecommend")}
+                <span class="text-explode">|</span>
+                <a data-title="查看下级" data-modal='{:url("$classuri/downrecommend")}?id={$vo.id}&allmemberId={$allmemberId}'>查看下级</a>
+                {/if}
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    {/if}
+</form>
+
+{/block}

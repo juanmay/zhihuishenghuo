@@ -1,0 +1,97 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">商品名称</label>
+        <div class="layui-input-inline">
+            <input name="goodsName" value="{$Think.get.goodsName}" placeholder="请输入商品名称" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">状态</label>
+        <div class="layui-input-inline">
+            <select name="status" class="layui-select">
+                <option value="">所有商品</option>
+                <!--{foreach ["0"=>"下架","1"=>"上架"] as $k=>$v}-->
+                {if $Think.get.status eq "$k"}
+                <option selected="selected" value="{$k}">{$v}</option>
+                {else}
+                <option value="{$k}">{$v}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+	<div class="layui-form-item layui-inline">
+        <label class="layui-form-label">品牌方</label>
+        <div class="layui-input-inline">
+            <select name="allmemberId" class="layui-select">
+            <?php $allmember=getAllMember();?>
+                <!--{foreach $allmember as $k=>$v}-->
+                {if $Think.get.allmemberId eq $v.id}
+                <option value="{$v.id}" selected="selected">{$v.companyName}</option>
+                {else}
+                <option value="{$v.id}">{$v.companyName}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item layui-inline">
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<script>
+    window.form.render();
+    $('[data-time]').map(function () {
+        window.laydate.render({range: true, elem: this});
+    });
+</script>
+<!-- 表单搜索 结束 -->
+
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    {if empty($list)}
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    {else}
+    <table class="layui-table" lay-size="sm">
+        <thead>
+        <tr>
+            <th class="text-center nowrap">商品图片</th>
+            <th class="text-center nowrap">商品名称</th>
+            <th class="text-center nowrap">商品价格</th>
+            <th class="text-center nowrap">市场价格</th>
+            <th class="text-center nowrap">商品库存</th>
+            <th class="text-center nowrap">商品销量</th>
+            <th class="text-center nowrap">状态</th>
+            <th class="text-center nowrap">发布时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class="text-center nowrap">
+                <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.goodsImage|default='/static/goods.png'}"/>
+            </td>
+            <td class="text-center nowrap">{$vo.goodsName}</td>
+            <td class="text-center nowrap">{$vo.goodsPrice}积分</td>
+            <td class="text-center nowrap">￥{$vo.marketPrice}</td>
+            <td class="text-center nowrap">{$vo.goodsStock}</td>
+            <td class="text-center nowrap">{$vo.saleNum}</td>
+            <td class='text-center'>
+                {if $vo.status eq 0}<span class="color-red">下架</span>{elseif $vo.status eq 1}<span class="color-green">上架</span>{/if}
+            </td>
+            <td class="text-center nowrap">{$vo.add_time}</td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    {/if}
+</form>
+
+{/block}

@@ -1,0 +1,154 @@
+---------------------------------------------------------------
+[ 2019-10-09T04:26:06+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012757s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024030s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.005778s ]
+---------------------------------------------------------------
+[ 2019-10-09T07:55:01+08:00 ] 47.101.193.1 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010433s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024993s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.006756s ]
+---------------------------------------------------------------
+[ 2019-10-09T07:55:01+08:00 ] 47.101.193.1 GET app.ddxx159.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006608s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.013982s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.004256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.016649s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.010470s ]
+---------------------------------------------------------------
+[ 2019-10-09T09:03:03+08:00 ] 47.101.201.242 GET dscjall.diyunkeji.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016710s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018486s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.005634s ]
+---------------------------------------------------------------
+[ 2019-10-09T09:03:03+08:00 ] 47.101.201.242 GET dscjall.diyunkeji.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009035s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.015832s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.005926s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019432s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.014583s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:24+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006937s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.023251s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.004350s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:24+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008402s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.015479s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.005469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.017921s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.010938s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:25+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015399s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.023986s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.005975s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.005928s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018296s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.014657s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:26+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011460s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.025972s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.007515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019802s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.015059s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:28+08:00 ] 112.229.90.95 POST dscjall.diyunkeji.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019825s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019098s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.008348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.037474s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `username` = 'admin'  AND `dataFlag` = 1 LIMIT 1 [ RunTime:0.008452s ]
+[ sql ] [ SQL ] UPDATE `dy_system_user`  SET `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.010446s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.008413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.025812s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.008408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth_node` [ RunTime:0.034681s ]
+[ sql ] [ SQL ] SELECT `node` FROM `dy_system_auth_node` WHERE  `auth` IN (2,4) [ RunTime:0.008322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_log` [ RunTime:0.030856s ]
+[ sql ] [ SQL ] INSERT INTO `dy_system_log` (`ip` , `node` , `action` , `content` , `username`) VALUES ('112.229.90.95' , 'admin/login/index' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.010586s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:29+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014972s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.020758s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.004688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.031717s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.004693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.019266s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.004645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth_node` [ RunTime:0.019311s ]
+[ sql ] [ SQL ] SELECT `node` FROM `dy_system_auth_node` WHERE  `auth` IN (2,4) [ RunTime:0.004573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.026606s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.005138s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `dy_system_node` [ RunTime:0.005217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.013748s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.009136s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:29+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006204s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.014510s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.004025s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.003971s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:32+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011280s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.017140s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.007912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.016986s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.007371s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.007548s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:34+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013184s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024164s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.005944s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.017822s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.006353s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:53:36+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012939s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.024440s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.005746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.018424s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.005713s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.005905s ]
+---------------------------------------------------------------
+[ 2019-10-09T14:54:03+08:00 ] 112.229.90.95 POST dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010624s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.088587s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.006925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.087396s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.006856s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.007101s ]
+---------------------------------------------------------------
+[ 2019-10-09T15:48:03+08:00 ] 183.136.190.40 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009219s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.100914s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.005997s ]
+---------------------------------------------------------------
+[ 2019-10-09T16:58:33+08:00 ] 27.38.41.18 GET app.ddxx159.com/index/common/register/code/2WRQay.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010627s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.025738s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.008239s ]
+---------------------------------------------------------------
+[ 2019-10-09T19:22:29+08:00 ] 223.104.1.66 GET app.ddxx159.com/index/common/register/code/5GAPTd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008676s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.039380s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.005594s ]
+---------------------------------------------------------------
+[ 2019-10-09T19:22:31+08:00 ] 112.60.1.73 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009116s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.837089s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.005917s ]
+---------------------------------------------------------------
+[ 2019-10-09T19:22:32+08:00 ] 157.255.172.22 GET app.ddxx159.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004684s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.962202s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.002961s ]
+---------------------------------------------------------------
+[ 2019-10-09T19:23:29+08:00 ] 101.89.29.97 GET app.ddxx159.com/index/common/register/code/5GAPTd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007481s ] mysql:host=47.103.216.151;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:3.448454s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'index/common/register' LIMIT 1 [ RunTime:0.004952s ]

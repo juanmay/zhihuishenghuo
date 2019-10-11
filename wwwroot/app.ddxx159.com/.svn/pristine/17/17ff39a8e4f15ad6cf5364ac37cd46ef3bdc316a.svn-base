@@ -1,0 +1,111 @@
+---------------------------------------------------------------
+[ 2019-06-19T08:38:41+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T09:15:30+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_use_order' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T10:32:36+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_use_order' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T10:32:40+08:00 ] 127.0.0.1 GET dscjall.com/admin/statistics/member.html?spm=m-7-156-157
+[ error ] [8]未定义变量: allmember[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\3ef6ac9fd83b62682a50f53db6f8dac3.php:19]
+---------------------------------------------------------------
+[ 2019-06-19T10:32:46+08:00 ] 127.0.0.1 GET dscjall.com/admin/statistics/member.html?spm=m-7-156-157
+[ error ] [8]未定义变量: allmember[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\3ef6ac9fd83b62682a50f53db6f8dac3.php:19]
+---------------------------------------------------------------
+[ 2019-06-19T10:35:02+08:00 ] 127.0.0.1 GET dscjall.com/admin/statistics/memberlogin.html?spm=m-7-156-159
+[ error ] [8]未定义变量: db_config[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Statistics.php:385]
+---------------------------------------------------------------
+[ 2019-06-19T10:35:06+08:00 ] 127.0.0.1 GET dscjall.com/admin/statistics/memberlogin.html?spm=m-7-156-159
+[ error ] [8]未定义变量: db_config[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Statistics.php:385]
+---------------------------------------------------------------
+[ 2019-06-19T10:35:31+08:00 ] 127.0.0.1 GET dscjall.com/admin/statistics/memberlogin.html?spm=m-7-156-159
+[ error ] [8]未定义变量: db_config[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Statistics.php:385]
+---------------------------------------------------------------
+[ 2019-06-19T10:55:36+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_use_order' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T10:58:03+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_use_order' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T11:14:21+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_use_order' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T11:15:39+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_use_order' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T11:29:36+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144&allmemberId=1000000002
+[ error ] [0]语法解析错误: syntax error, unexpected '='[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\37eb1f81dc066122fed5537756474785.php:195]
+---------------------------------------------------------------
+[ 2019-06-19T11:29:41+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144&allmemberId=1000000002
+[ error ] [0]语法解析错误: syntax error, unexpected '='[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\37eb1f81dc066122fed5537756474785.php:195]
+---------------------------------------------------------------
+[ 2019-06-19T11:30:09+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144&allmemberId=1000000002
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ',' or ';'[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\37eb1f81dc066122fed5537756474785.php:195]
+---------------------------------------------------------------
+[ 2019-06-19T11:32:20+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/card.html?spm=m-163-164-167
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_banks' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T11:34:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/card.html?spm=m-163-164-167
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_banks' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:00:17+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/index.html?spm=m-163-164-165
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:11:21+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/index.html?spm=m-163-164-165
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:13:17+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/index.html?spm=m-163-164-165
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:13:23+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/index.html?spm=m-163-164-165
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:18:28+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/edit.html?id=1000000003&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:18:52+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/money.html?id=1000000003&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:18:53+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/money.html?id=1000000001&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:18:54+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/edit.html?id=1000000002&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:27:35+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/index.html?spm=m-163-164-165
+[ error ] [8]未定义数组索引: thirdQuickRate[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\8790c4ca77c459213c97dd5d07e28328.php:106]
+---------------------------------------------------------------
+[ 2019-06-19T14:34:46+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/edit.html?id=1000000003&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T14:50:19+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/edit.html?id=1000000003&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T15:00:12+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/edit.html?id=1000000003&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T15:00:14+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/edit.html?id=1000000002&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T15:00:19+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/edit.html?id=1000000002&spm=m-163-164-165&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-19T15:24:22+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/money.html?id=1000000001&spm=m-163-164-165&open_type=modal
+[ error ] [8]未定义变量: fbmember[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\7a70b2128fe4d9408945e5d1d9d88901.php:6]
+---------------------------------------------------------------
+[ 2019-06-19T15:24:27+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/money.html?id=1000000001&spm=m-163-164-165&open_type=modal
+[ error ] [8]未定义变量: fbmember[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\7a70b2128fe4d9408945e5d1d9d88901.php:6]
+---------------------------------------------------------------
+[ 2019-06-19T15:44:35+08:00 ] 127.0.0.1 POST dscjall.com/admin/allmember/money.html?id=1000000003&spm=m-163-164-165&open_type=modal
+[ error ] [8]未定义变量: data[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:1600]
+---------------------------------------------------------------
+[ 2019-06-19T15:44:43+08:00 ] 127.0.0.1 POST dscjall.com/admin/allmember/money.html?id=1000000003&spm=m-163-164-165&open_type=modal
+[ error ] [8]未定义变量: data[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:1600]
+---------------------------------------------------------------
+[ 2019-06-19T15:47:35+08:00 ] 127.0.0.1 POST dscjall.com/admin/allmember/money.html?id=1000000003&spm=m-163-164-165&open_type=modal
+[ error ] [8]未定义变量: fbmember[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:1585]
+---------------------------------------------------------------
+[ 2019-06-19T15:49:28+08:00 ] 127.0.0.1 POST dscjall.com/admin/allmember/del.html?spm=m-163-164-165
+[ error ] [0]数据表字段不存在:[is_deleted][C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Builder.php:135]

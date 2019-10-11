@@ -1,0 +1,63 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+	<div class="layui-form-item layui-inline">
+        <label class="layui-form-label">结算时间</label>
+        <div class="layui-input-inline">
+            <input name="add_time" data-time value="{$Think.get.add_time}" placeholder="请选择交易时间" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item layui-inline">
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<script>
+    window.form.render();
+    $('[data-time]').map(function () {
+        window.laydate.render({range: true, elem: this});
+    });
+</script>
+<!-- 表单搜索 结束 -->
+
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    {if empty($list)}
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    {else}
+    <table class="layui-table" lay-size="sm">
+        <thead>
+        <tr>
+            <th class="text-center nowrap">结算日期</th>
+            <th class="text-center nowrap">盈利金额</th>
+            <th class="text-center nowrap">充值余额</th>
+            <th class="text-center nowrap">提现金额</th>
+            <th class="text-center nowrap">扣减金额</th>
+            <th class="text-center nowrap">消耗金额</th>
+            <th class="text-center nowrap">加共计</th>
+            <th class="text-center nowrap">减共计</th>
+            <th class="text-center nowrap">总计</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class="text-center nowrap">{$vo.month}</td>
+            <td class="text-center nowrap">{$vo.sum1}</td>
+            <td class="text-center nowrap">{$vo.sum2}</td>
+            <td class="text-center nowrap">{$vo.sum3}</td>
+            <td class="text-center nowrap">{$vo.sum4}</td>
+            <td class="text-center nowrap">{$vo.sum5}</td>
+            <td class="text-center nowrap">{$vo.add}</td>
+            <td class="text-center nowrap">{$vo.minus}</td>
+            <td class="text-center nowrap">{$vo.balance}</td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    {/if}
+</form>
+
+{/block}

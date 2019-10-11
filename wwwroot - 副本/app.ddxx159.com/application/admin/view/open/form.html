@@ -1,0 +1,163 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">标题</label>
+        <div class="layui-input-block">
+            <input type="text" name="title" value='{$vo.title|default=""}' required="required" title="请输入标题" placeholder="请输入标题" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b></p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">IOS启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.ios1|default='/static/goods.png'}"/>
+            <input type="hidden" name="ios1" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.ios1|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="ios1">上传图片</a>
+            <p class="help-block">IOS启动页，尺寸：640 × 960</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">IOS启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.ios2|default='/static/goods.png'}"/>
+            <input type="hidden" name="ios2" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.ios2|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="ios2">上传图片</a>
+            <p class="help-block">IOS启动页，尺寸：640 × 1136</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">IOS启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.ios3|default='/static/goods.png'}"/>
+            <input type="hidden" name="ios3" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.ios3|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="ios3">上传图片</a>
+            <p class="help-block">IOS启动页，尺寸：750 × 1334</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">IOS启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.ios4|default='/static/goods.png'}"/>
+            <input type="hidden" name="ios4" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.ios4|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="ios4">上传图片</a>
+            <p class="help-block">IOS启动页，尺寸：828 × 1792</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">IOS启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.ios5|default='/static/goods.png'}"/>
+            <input type="hidden" name="ios5" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.ios5|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="ios5">上传图片</a>
+            <p class="help-block">IOS启动页，尺寸：1242 × 2208</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">IOS启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.ios6|default='/static/goods.png'}"/>
+            <input type="hidden" name="ios6" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.ios6|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="ios6">上传图片</a>
+            <p class="help-block">IOS启动页，尺寸：1125 × 2436</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">IOS启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.ios7|default='/static/goods.png'}"/>
+            <input type="hidden" name="ios7" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.ios7|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="ios7">上传图片</a>
+            <p class="help-block">IOS启动页，尺寸：1242 × 2688</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">Android启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.android1|default='/static/goods.png'}"/>
+            <input type="hidden" name="android1" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.android1|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="android1">上传图片</a>
+            <p class="help-block">Android启动页，尺寸：960x540</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">Android启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.android2|default='/static/goods.png'}"/>
+            <input type="hidden" name="android2" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.android2|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="android2">上传图片</a>
+            <p class="help-block">Android启动页，尺寸：1280x720</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">Android启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.android3|default='/static/goods.png'}"/>
+            <input type="hidden" name="android3" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.android3|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="android3">上传图片</a>
+            <p class="help-block">Android启动页，尺寸：1920x1080</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">Android启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.android4|default='/static/goods.png'}"/>
+            <input type="hidden" name="android4" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.android4|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="android4">上传图片</a>
+            <p class="help-block">Android启动页，尺寸：2160x1080</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">Android启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.android5|default='/static/goods.png'}"/>
+            <input type="hidden" name="android5" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.android5|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="android5">上传图片</a>
+            <p class="help-block">Android启动页，尺寸：2560x1440</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="layui-form-label">Android启动页</label>
+        <div class="layui-input-block">
+            <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.android6|default='/static/goods.png'}"/>
+            <input type="hidden" name="android6" onchange="$(this).prev('img').attr('src', this.value)" value="{$vo.android6|default='/static/goods.png'}" class="layui-input">
+            <a class="btn btn-link" data-file="one" data-uptype="local" data-type="ico,png,jpeg,jpg,gif" data-field="android6">上传图片</a>
+            <p class="help-block">Android启动页，尺寸：2880x1440</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">跳转地址</label>
+        <div class="layui-input-block">
+            <input type="text" name="url" value='{$vo.url|default=""}' title="请输入跳转地址" placeholder="请输入跳转地址" class="layui-input">
+            <p class="help-block color-desc"><b>选填</b>，跳转地址（http://www.baidu.com）</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">排序</label>
+        <div class="layui-input-block">
+            <input type="text" name="sort" value='{$vo.sort|default=""}' title="请输入排序" placeholder="请输入排序" class="layui-input">
+            <p class="help-block color-desc">值越大越靠后</p>
+        </div>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="layui-form-item text-center">
+        {if isset($vo['id'])}<input type='hidden' value='{$vo.id|default="0"}' name='id'>{/if}
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消操作吗？" data-close>取消操作</button>
+    </div>
+</form>

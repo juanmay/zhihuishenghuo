@@ -1,0 +1,2150 @@
+---------------------------------------------------------------
+[ 2019-10-11T00:25:10+08:00 ] 113.116.222.188 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.017021s] [吞吐率：58.75req/s] [内存消耗：1,665.67kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T00:25:10+08:00 ] 119.123.219.98 POST app.ddxx159.com/api/index/index
+[运行时间：0.014462s] [吞吐率：69.15req/s] [内存消耗：1,664.41kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T00:25:22+08:00 ] 113.116.222.188 POST app.ddxx159.com/api/login/sms
+[运行时间：0.014796s] [吞吐率：67.59req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T04:21:36+08:00 ] 183.136.190.40 GET app.ddxx159.com/
+[运行时间：0.412830s] [吞吐率：2.42req/s] [内存消耗：3,056.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T04:44:36+08:00 ] 47.103.5.27 GET app.ddxx159.com/
+[运行时间：0.076254s] [吞吐率：13.11req/s] [内存消耗：3,055.47kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T04:44:37+08:00 ] 47.103.5.27 GET app.ddxx159.com/admin/login.html
+[运行时间：0.100182s] [吞吐率：9.98req/s] [内存消耗：3,263.73kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T05:04:52+08:00 ] 47.100.216.244 GET dscjall.diyunkeji.com/
+[运行时间：0.083417s] [吞吐率：11.99req/s] [内存消耗：3,055.51kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T05:04:52+08:00 ] 47.100.216.244 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.092300s] [吞吐率：10.83req/s] [内存消耗：3,263.77kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T11:55:42+08:00 ] 112.229.90.95 POST app.ddxx159.com/api/index/index
+[运行时间：0.017161s] [吞吐率：58.27req/s] [内存消耗：1,664.41kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T11:55:42+08:00 ] 112.229.90.95 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.014439s] [吞吐率：69.26req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T12:42:58+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/
+[运行时间：0.254155s] [吞吐率：3.93req/s] [内存消耗：4,501.98kb] [文件加载：133]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's6e2929b2=36ogks8ehq906lm5l42uj6a7q0; page-rows=20; s73876b25=5b3803da5e62f792cf153ced16c9208c; s8fa1198b=c2012f0fd5ee6047cc6ae46e41c37858',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:42:58+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/
+[运行时间：0.227426s] [吞吐率：4.40req/s] [内存消耗：4,501.60kb] [文件加载：133]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's6e2929b2=36ogks8ehq906lm5l42uj6a7q0; page-rows=20; s73876b25=5b3803da5e62f792cf153ced16c9208c; s8fa1198b=c2012f0fd5ee6047cc6ae46e41c37858',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:42:59+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[运行时间：0.090744s] [吞吐率：11.02req/s] [内存消耗：2,999.94kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's6e2929b2=36ogks8ehq906lm5l42uj6a7q0; page-rows=20; s73876b25=5b3803da5e62f792cf153ced16c9208c; s8fa1198b=c2012f0fd5ee6047cc6ae46e41c37858',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-78',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:43:13+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/login/out.html?spm=m-7-77-78
+[运行时间：0.102803s] [吞吐率：9.73req/s] [内存消耗：3,015.85kb] [文件加载：80]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's6e2929b2=36ogks8ehq906lm5l42uj6a7q0; page-rows=20; s73876b25=5b3803da5e62f792cf153ced16c9208c; s8fa1198b=c2012f0fd5ee6047cc6ae46e41c37858',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-78',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T12:43:17+08:00 ] 112.229.90.95 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.105815s] [吞吐率：9.45req/s] [内存消耗：3,266.03kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's6e2929b2=36ogks8ehq906lm5l42uj6a7q0; page-rows=20; s73876b25=5b3803da5e62f792cf153ced16c9208c; s8fa1198b=c2012f0fd5ee6047cc6ae46e41c37858',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:48:52+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/favicon.ico
+[运行时间：0.017015s] [吞吐率：58.77req/s] [内存消耗：1,665.40kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T12:49:59+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/
+[运行时间：0.063084s] [吞吐率：15.85req/s] [内存消耗：3,056.55kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T12:49:59+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.106291s] [吞吐率：9.41req/s] [内存消耗：3,264.98kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:50:07+08:00 ] 180.164.55.224 POST dscjall.diyunkeji.com/admin/login.html?spm=
+[运行时间：0.201685s] [吞吐率：4.96req/s] [内存消耗：3,033.60kb] [文件加载：82]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://dscjall.diyunkeji.com',
+  'accept' => '*/*',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => '',
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T12:50:08+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin.html
+[运行时间：0.236202s] [吞吐率：4.23req/s] [内存消耗：4,501.66kb] [文件加载：133]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:50:11+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[运行时间：0.053058s] [吞吐率：18.85req/s] [内存消耗：2,999.46kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-78',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:50:16+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[运行时间：0.725055s] [吞吐率：1.38req/s] [内存消耗：3,340.91kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:50:30+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/repayment/running.html?spm=m-146-55-56
+[运行时间：0.173169s] [吞吐率：5.77req/s] [内存消耗：3,395.61kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-56',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\running.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:50:47+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/repayment/finish.html?spm=m-146-55-57
+[运行时间：0.207438s] [吞吐率：4.82req/s] [内存消耗：3,581.81kb] [文件加载：86]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-57',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\finish.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:50:49+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/repayment/fail.html?spm=m-146-55-58
+[运行时间：0.232443s] [吞吐率：4.30req/s] [内存消耗：3,588.02kb] [文件加载：86]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-58',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\fail.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:51:01+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/repayment/finish.html?spm=m-146-55-57
+[运行时间：0.172487s] [吞吐率：5.80req/s] [内存消耗：3,394.55kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-57',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\finish.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:51:04+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/repayment/fail.html?spm=m-146-55-58
+[运行时间：0.130694s] [吞吐率：7.65req/s] [内存消耗：3,396.60kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-58',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\fail.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:51:10+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/quick/index.html?spm=m-146-121-122
+[运行时间：0.211338s] [吞吐率：4.73req/s] [内存消耗：3,513.02kb] [文件加载：86]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-121-122',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\quick\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:53:11+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.113865s] [吞吐率：8.78req/s] [内存消耗：3,354.08kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\menu\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:56:29+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[运行时间：0.106738s] [吞吐率：9.37req/s] [内存消耗：3,205.84kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:56:55+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/allmember/edit.html?id=1000000007&spm=m-163-164-165&open_type=modal
+[运行时间：0.164781s] [吞吐率：6.07req/s] [内存消耗：3,235.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1000000007',
+  'spm' => 'm-163-164-165',
+  'open_type' => 'modal',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\form.html [ array (
+  0 => 'classuri',
+  1 => 'vo',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:57:22+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/allmember/money.html?id=1000000007&spm=m-163-164-165&open_type=modal
+[运行时间：0.133040s] [吞吐率：7.52req/s] [内存消耗：3,183.84kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1000000007',
+  'spm' => 'm-163-164-165',
+  'open_type' => 'modal',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\money.html [ array (
+  0 => 'classuri',
+  1 => 'allmember',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:57:35+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/sysmoneylog/index.html?spm=m-163-170-171
+[运行时间：0.229595s] [吞吐率：4.36req/s] [内存消耗：3,184.69kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-170-171',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\sysmoneylog\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:58:12+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/monthsettled/index.html?spm=m-163-170-172
+[运行时间：0.128660s] [吞吐率：7.77req/s] [内存消耗：3,200.47kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-170-172',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\monthsettled\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:58:30+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/settled/index.html?spm=m-163-170-173
+[运行时间：0.148605s] [吞吐率：6.73req/s] [内存消耗：3,138.96kb] [文件加载：85]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-170-173',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\settled\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:58:38+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[运行时间：0.109327s] [吞吐率：9.15req/s] [内存消耗：3,205.84kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:58:41+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.124805s] [吞吐率：8.01req/s] [内存消耗：3,354.08kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\menu\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:58:45+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/config/index.html?spm=m-1-10-3
+[运行时间：0.099148s] [吞吐率：10.09req/s] [内存消耗：3,266.25kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\config\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:58:59+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[运行时间：0.688733s] [吞吐率：1.45req/s] [内存消耗：3,341.18kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:59:07+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/moneylog/index.html?spm=m-43-44-47
+[运行时间：0.179583s] [吞吐率：5.57req/s] [内存消耗：3,270.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-47',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\moneylog\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:59:24+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[运行时间：0.693121s] [吞吐率：1.44req/s] [内存消耗：3,341.02kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:59:36+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/creditcard/index.html?spm=m-43-44-48
+[运行时间：0.150515s] [吞吐率：6.64req/s] [内存消耗：3,295.25kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-48',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\creditcard\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T12:59:51+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.130228s] [吞吐率：7.68req/s] [内存消耗：3,354.08kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\menu\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:00:35+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/repayment/running.html?spm=m-146-55-56
+[运行时间：0.181311s] [吞吐率：5.52req/s] [内存消耗：3,395.60kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-56',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\running.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:00:42+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[运行时间：0.087363s] [吞吐率：11.45req/s] [内存消耗：2,999.73kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-78',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:00:45+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/total/index.html?spm=m-7-77-144
+[运行时间：0.362627s] [吞吐率：2.76req/s] [内存消耗：3,180.36kb] [文件加载：80]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-144',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\total\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'data',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:00:45+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/total/bing.html?allmemberId=1000000001
+[运行时间：0.196222s] [吞吐率：5.10req/s] [内存消耗：3,108.56kb] [文件加载：76]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'allmemberId' => '1000000001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\total\bing.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'data',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:01:02+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/repayment/running.html?spm=m-146-55-56
+[运行时间：0.168498s] [吞吐率：5.93req/s] [内存消耗：3,395.45kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-56',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\running.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:01:07+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.111481s] [吞吐率：8.97req/s] [内存消耗：3,354.08kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\menu\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:01:54+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/config/index.html?spm=m-1-10-3
+[运行时间：0.110021s] [吞吐率：9.09req/s] [内存消耗：3,266.25kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\config\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:02:04+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.118437s] [吞吐率：8.44req/s] [内存消耗：3,354.08kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\menu\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:05:41+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/auth/index.html?spm=m-1-11-4
+[运行时间：0.120852s] [吞吐率：8.27req/s] [内存消耗：3,144.47kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-11-4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\auth\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:05:45+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/node/index.html?spm=m-1-11-6
+[运行时间：0.105951s] [吞吐率：9.44req/s] [内存消耗：4,838.15kb] [文件加载：133]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-11-6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\node\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'nodes',
+  3 => 'groups',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:06:12+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/log/index.html?spm=m-1-16-8
+[运行时间：0.192233s] [吞吐率：5.20req/s] [内存消耗：3,389.07kb] [文件加载：87]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-16-8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\log\index.html [ array (
+  0 => 'classuri',
+  1 => 'actions',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:06:23+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.103905s] [吞吐率：9.62req/s] [内存消耗：3,354.08kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\menu\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:06:37+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[运行时间：0.081322s] [吞吐率：12.30req/s] [内存消耗：2,999.73kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-78',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T13:06:42+08:00 ] 180.164.55.224 GET dscjall.diyunkeji.com/admin/statistics/memberlogin.html?spm=m-7-156-159
+[运行时间：0.448169s] [吞吐率：2.23req/s] [内存消耗：3,372.20kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=3ed1e88bb7e1af5a772e701c5d65025f; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-156-159',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\statistics\memberlogin.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'day',
+  3 => 'timeX',
+  4 => 'timeX2',
+  5 => 'userLineAll',
+  6 => 'userLineAll2',
+  7 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T14:49:08+08:00 ] 47.98.104.223 GET dscjall.diyunkeji.com/
+[运行时间：0.056031s] [吞吐率：17.85req/s] [内存消耗：3,055.51kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T14:49:08+08:00 ] 47.98.104.223 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.081303s] [吞吐率：12.30req/s] [内存消耗：3,263.77kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T14:49:37+08:00 ] 117.136.31.239 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.015222s] [吞吐率：65.69req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T14:49:37+08:00 ] 117.136.31.239 POST app.ddxx159.com/api/index/index
+[运行时间：0.017129s] [吞吐率：58.38req/s] [内存消耗：1,664.41kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T14:50:06+08:00 ] 117.136.31.239 POST app.ddxx159.com/api/index/index
+[运行时间：0.015068s] [吞吐率：66.37req/s] [内存消耗：1,664.41kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T14:50:06+08:00 ] 117.136.31.239 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.014635s] [吞吐率：68.33req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T15:26:02+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/
+[运行时间：0.083214s] [吞吐率：12.02req/s] [内存消耗：3,056.85kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T15:26:02+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.127494s] [吞吐率：7.84req/s] [内存消耗：3,265.15kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:26:05+08:00 ] 123.232.6.106 POST dscjall.diyunkeji.com/admin/login.html?spm=
+[运行时间：0.164672s] [吞吐率：6.07req/s] [内存消耗：3,033.73kb] [文件加载：82]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://dscjall.diyunkeji.com',
+  'accept' => '*/*',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => '',
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T15:26:05+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin.html
+[运行时间：0.254043s] [吞吐率：3.94req/s] [内存消耗：4,501.70kb] [文件加载：133]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:26:06+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/index/main.html?spm=m-7-77-78
+[运行时间：0.065024s] [吞吐率：15.38req/s] [内存消耗：2,999.71kb] [文件加载：78]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7-77-78',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\index\main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:26:11+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[运行时间：0.566929s] [吞吐率：1.76req/s] [内存消耗：3,341.29kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:26:13+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/repayment/running.html?spm=m-146-55-56
+[运行时间：0.165572s] [吞吐率：6.04req/s] [内存消耗：3,395.60kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-56',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\running.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:26:15+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[运行时间：0.760244s] [吞吐率：1.32req/s] [内存消耗：3,341.15kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:26:22+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[运行时间：0.105174s] [吞吐率：9.51req/s] [内存消耗：3,205.84kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:01+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/allmember/add.html?spm=m-163-164-165&open_type=modal
+[运行时间：0.081560s] [吞吐率：12.26req/s] [内存消耗：3,017.99kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+  'open_type' => 'modal',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\form.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:07+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[运行时间：0.552051s] [吞吐率：1.81req/s] [内存消耗：3,341.30kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:12+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45&phone=&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000001
+[运行时间：0.689320s] [吞吐率：1.45req/s] [内存消耗：3,349.59kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+  'phone' => '',
+  'realname' => '',
+  'realnameStatus' => '',
+  'level' => '',
+  'regTime' => '',
+  'allmemberId' => '1000000001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:17+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/group/money.html?spm=m-43-44-143
+[运行时间：0.688907s] [吞吐率：1.45req/s] [内存消耗：3,274.38kb] [文件加载：85]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-143',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\group\money.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:19+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/achievement/index.html?spm=m-43-44-116
+[运行时间：0.616342s] [吞吐率：1.62req/s] [内存消耗：3,274.91kb] [文件加载：85]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-116',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\achievement\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:21+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/repayment/running.html?spm=m-146-55-56
+[运行时间：0.153799s] [吞吐率：6.50req/s] [内存消耗：3,395.60kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-56',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\running.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:27+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/repayment/running.html?spm=m-146-55-56&phone=&realname=&bank_num=&add_time=&channel_type=&allmemberId=1000000007
+[运行时间：0.142312s] [吞吐率：7.03req/s] [内存消耗：3,400.43kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-146-55-56',
+  'phone' => '',
+  'realname' => '',
+  'bank_num' => '',
+  'add_time' => '',
+  'channel_type' => '',
+  'allmemberId' => '1000000007',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\repayment\running.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:29+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[运行时间：0.504204s] [吞吐率：1.98req/s] [内存消耗：3,341.15kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:32+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.118171s] [吞吐率：8.46req/s] [内存消耗：3,354.08kb] [文件加载：81]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\menu\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:27:34+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/allmember/index.html?spm=m-163-164-165
+[运行时间：0.122050s] [吞吐率：8.19req/s] [内存消耗：3,205.84kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-163-164-165',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\allmember\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'total',
+  3 => 'list',
+  4 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T15:50:50+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[运行时间：0.079452s] [吞吐率：12.59req/s] [内存消耗：3,056.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-11T16:06:32+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45
+[运行时间：0.911472s] [吞吐率：1.10req/s] [内存消耗：3,341.16kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T16:06:39+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45&phone=&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000007
+[运行时间：0.761824s] [吞吐率：1.31req/s] [内存消耗：3,348.70kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+  'phone' => '',
+  'realname' => '',
+  'realnameStatus' => '',
+  'level' => '',
+  'regTime' => '',
+  'allmemberId' => '1000000007',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T16:06:49+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45&phone=&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000008
+[运行时间：0.661139s] [吞吐率：1.51req/s] [内存消耗：3,349.44kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+  'phone' => '',
+  'realname' => '',
+  'realnameStatus' => '',
+  'level' => '',
+  'regTime' => '',
+  'allmemberId' => '1000000008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T16:06:49+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/static/upload/20191010/b64a27f72d30aab0a9babda2777ff446.jpg
+[运行时间：0.014916s] [吞吐率：67.04req/s] [内存消耗：1,665.40kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-11T16:06:55+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45&phone=&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000001
+[运行时间：0.638382s] [吞吐率：1.57req/s] [内存消耗：3,349.45kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+  'phone' => '',
+  'realname' => '',
+  'realnameStatus' => '',
+  'level' => '',
+  'regTime' => '',
+  'allmemberId' => '1000000001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2019-10-11T16:07:32+08:00 ] 123.232.6.106 GET dscjall.diyunkeji.com/admin/member/index.html?spm=m-43-44-45&phone=18505971568&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000001
+[运行时间：0.223438s] [吞吐率：4.48req/s] [内存消耗：3,243.45kb] [文件加载：84]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's8fa1198b=89e23d1d9e355281edd785e407611403; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dscjall.diyunkeji.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-43-44-45',
+  'phone' => '18505971568',
+  'realname' => '',
+  'realnameStatus' => '',
+  'level' => '',
+  'regTime' => '',
+  'allmemberId' => '1000000001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\member\index.html [ array (
+  0 => 'classuri',
+  1 => 'allmemberId',
+  2 => 'title',
+  3 => 'total',
+  4 => 'list',
+  5 => 'page',
+) ]

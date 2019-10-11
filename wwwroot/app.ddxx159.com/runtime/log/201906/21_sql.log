@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+[ 2019-06-21T17:10:22+08:00 ] 127.0.0.1 GET dscjall.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028880s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.021309s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.015439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_user` [ RunTime:0.020245s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.016100s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth` [ RunTime:0.019808s ]
+[ sql ] [ SQL ] SELECT `id` FROM `dy_system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.015413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_auth_node` [ RunTime:0.020456s ]
+[ sql ] [ SQL ] SELECT `node` FROM `dy_system_auth_node` WHERE  `auth` IN (2,4) [ RunTime:0.014779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_menu` [ RunTime:0.020460s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_menu` WHERE  `status` = 1  AND `dataFlag` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.017433s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `dy_system_node` [ RunTime:0.016478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.019550s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.035340s ]
+---------------------------------------------------------------
+[ 2019-06-21T17:10:22+08:00 ] 127.0.0.1 GET dscjall.com/admin/allmember/index.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022967s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018388s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/allmember/index' LIMIT 1 [ RunTime:0.016106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_allmember` [ RunTime:0.020194s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_allmember` WHERE  `dataFlag` = 1 LIMIT 1 [ RunTime:0.014556s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_allmember` WHERE  `dataFlag` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.016686s ]
+---------------------------------------------------------------
+[ 2019-06-21T17:10:25+08:00 ] 127.0.0.1 GET dscjall.com/admin/login/out.html?spm=m-163-164-165
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022626s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.018641s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/out' LIMIT 1 [ RunTime:0.015475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_log` [ RunTime:0.018745s ]
+[ sql ] [ SQL ] INSERT INTO `dy_system_log` (`ip` , `node` , `action` , `content` , `username`) VALUES ('127.0.0.1' , 'admin/login/out' , '系统管理' , '用户退出系统成功' , 'admin') [ RunTime:0.018524s ]
+---------------------------------------------------------------
+[ 2019-06-21T17:10:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022200s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.019071s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.014942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.018744s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.050455s ]
+---------------------------------------------------------------
+[ 2019-06-21T17:11:21+08:00 ] 127.0.0.1 GET dscjall.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.108070s ] mysql:host=47.104.213.64;port=3306;dbname=dscj;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_node` [ RunTime:0.133203s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.055522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_system_config` [ RunTime:0.054512s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `dy_system_config` [ RunTime:0.143857s ]

@@ -1,0 +1,65 @@
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户上级</label>
+        <div class="layui-input-inline">
+            <select name="recommendId" class="layui-select" required="required"  lay-verify='recommendId' lay-search="">
+				<option value="">直接选择或搜索选择</option>
+				
+				{if $member.recommendId eq 0}
+				<option value="0" selected="selected">平台</option>
+				{/if}
+				{foreach name='recommend' item='v'}
+				{if $v.id eq $member.recommendId}
+					<option value="{$v.id}" selected="selected" >{$v.phone}|{$v.realname}</option>
+				{else}
+                	<option value="{$v.id}">{$v.phone}|{$v.realname}</option>
+                {/if}
+				{/foreach}
+			</select>
+        </div>
+    </div>
+    <div class="hr-line-dashed"></div>
+	<div class="layui-form-item">
+        <label class="layui-form-label" style='color:red;'>用户信息</label>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">当前上级：</label>
+        <div class="layui-input-inline">{$member.recommendname}</div>
+        
+        <label class="layui-form-label">用户等级：</label>
+        <div class="layui-input-inline">
+            <?php $level = getMemberLevel(); ?>
+                <!--{foreach $level as $k=>$v}-->
+                {if $vo.level eq "$k"}
+                {$v['name']}
+                {/if}
+                <!--{/foreach}-->
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户手机号：</label>
+        <div class="layui-input-inline">{$member.phone}</div>
+        <label class="layui-form-label">用户昵称：</label>
+        <div class="layui-input-inline">{$member.nickName}</div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户实名：</label>
+        <div class="layui-input-inline">{$member.realname}</div>
+    </div>
+    <div class="hr-line-dashed"></div>
+    <div class="layui-form-item text-center">
+        <input type='hidden' value='{$member.id|default="0"}' name='id'>
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消编辑吗？" data-close>取消编辑</button>
+    </div>
+</form>
+<script>
+window.form.render();
+window.form.verify({
+	recommendId: function(value, item){
+	    if(value === ''){
+	      return '必选';
+	    }
+	  }
+	});  
+</script>

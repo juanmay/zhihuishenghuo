@@ -1,0 +1,125 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">用户手机</label>
+        <div class="layui-input-inline">
+            <input name="phone" value="{$Think.get.phone}" placeholder="请输入用户手机" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">收货姓名</label>
+        <div class="layui-input-inline">
+            <input name="realname" value="{$Think.get.realname}" placeholder="请输入用户姓名" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">兑换单号</label>
+        <div class="layui-input-inline">
+            <input name="orderNo" value="{$Think.get.orderNo}" placeholder="请输入兑换单号" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">状态</label>
+        <div class="layui-input-inline">
+            <select name="status" class="layui-select">
+                <option value="">所有订单</option>
+                <!--{foreach ["0"=>"待发货","1"=>"已发货"] as $k=>$v}-->
+                {if $Think.get.status eq "$k"}
+                <option selected="selected" value="{$k}">{$v}</option>
+                {else}
+                <option value="{$k}">{$v}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">下单时间</label>
+        <div class="layui-input-inline">
+            <input name="add_time" data-time value="{$Think.get.add_time}" placeholder="请选择交易时间" class="layui-input">
+        </div>
+    </div>
+
+	<div class="layui-form-item layui-inline">
+        <label class="layui-form-label">品牌方</label>
+        <div class="layui-input-inline">
+            <select name="allmemberId" class="layui-select">
+            <?php $allmember=getAllMember();?>
+                <!--{foreach $allmember as $k=>$v}-->
+                {if $Think.get.allmemberId eq $v.id}
+                <option value="{$v.id}" selected="selected">{$v.companyName}</option>
+                {else}
+                <option value="{$v.id}">{$v.companyName}</option>
+                {/if}
+                <!--{/foreach}-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item layui-inline">
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<script>
+    window.form.render();
+    $('[data-time]').map(function () {
+        window.laydate.render({range: true, elem: this});
+    });
+</script>
+<!-- 表单搜索 结束 -->
+
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    {if empty($list)}
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    {else}
+    <table class="layui-table" lay-size="sm">
+        <thead>
+        <tr>
+            <th class="text-center nowrap">订单编号</th>
+            <th class="text-center nowrap">商品图片</th>
+            <th class="text-center nowrap">商品名称</th>
+            <th class="text-center nowrap">兑换件数</th>
+            <th class="text-center nowrap">用户手机</th>
+            <th class="text-center nowrap">收货姓名</th>
+            <th class="text-center nowrap">收货地址</th>
+            <th class="text-center nowrap">订单状态</th>
+            <th class="text-center nowrap">物流方式</th>
+            <th class="text-center nowrap">物流单号</th>
+            <th class="text-center nowrap">下单时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class="text-center nowrap">{$vo.orderNo}</td>
+            <td class="text-center nowrap">
+                <img data-tips-image style="height:auto;max-height:32px;min-width:32px" src="{$vo.goodsImage|default='/static/goods.png'}"/>
+            </td>
+            <td class="text-center">{$vo.goodsName}</td>
+            <td class="text-center nowrap">{$vo.goodsNum}</td>
+            <td class="text-center nowrap">{$vo.mphone}</td>
+            <td class="text-center nowrap">{$vo.realname}</td>
+            <td class="text-center nowrap">{$vo.address}</td>
+            <td class='text-center'>
+                {if $vo.status eq 0}<span>待发货</span>{elseif $vo.status eq 1}<span class="color-green">已发货</span>{/if}
+            </td>
+            <td class="text-center nowrap">{$vo.expressName|default='---'}</td>
+            <td class="text-center nowrap">{$vo.expressNo|default='---'}</td>
+            <td class="text-center nowrap">{$vo.add_time}</td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    {/if}
+</form>
+
+{/block}

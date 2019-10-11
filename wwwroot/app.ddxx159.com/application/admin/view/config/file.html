@@ -1,0 +1,67 @@
+{extend name="admin@public/content"}
+
+{block name="content"}
+<form autocomplete="off" onsubmit="return false;" action="{:request()->url()}" data-auto="true" method="post" class='form-horizontal layui-form padding-top-20'>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label label-required">
+            Storage<br><span class="nowrap color-desc">存储引擎</span>
+        </label>
+        <div class='col-sm-8'>
+            {foreach ['local'=>'本地服务器存储'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if sysconf('storage_type') eq $k}-->
+                <input checked type="radio" name="storage_type" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="storage_type" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+            <div class="help-block" data-storage-type="local">
+                文件存储在本地服务器，请确保服务器的 ./static/upload/ 目录有写入权限
+            </div>
+        </div>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="form-group" data-storage-type="local">
+        <label class="col-sm-2 control-label">
+            AllowExts<br><span class="nowrap color-desc">允许类型</span>
+        </label>
+        <div class='col-sm-8'>
+            <input type="text" name="storage_local_exts" required="required" value="{:sysconf('storage_local_exts')}"
+                   title="请输入系统文件上传后缀" placeholder="请输入系统文件上传后缀" class="layui-input">
+            <p class="help-block">设置系统允许上传文件的后缀，多个以英文逗号隔开。如：png,jpg,rar,doc</p>
+        </div>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="col-sm-4 col-sm-offset-2">
+        <div class="layui-form-item text-center">
+            <button class="layui-btn" type="submit">保存配置</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name="script"}
+<script>
+    (function () {
+        window.form.render();
+        buildForm('{:sysconf("storage_type")}');
+        $('[name=storage_type]').on('click', function () {
+            buildForm($('[name=storage_type]:checked').val())
+        });
+
+        // 表单显示编译
+        function buildForm(value) {
+            var $tips = $("[data-storage-type='" + value + "']");
+            $("[data-storage-type]").not($tips.show()).hide();
+        }
+    })();
+</script>
+{/block}

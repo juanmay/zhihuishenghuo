@@ -1,0 +1,336 @@
+---------------------------------------------------------------
+[ 2019-06-18T09:58:22+08:00 ] 127.0.0.1 GET dscjall.com/admin/moneylog/index.html?type=agent&spm=m-5-75-78
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T10:46:06+08:00 ] 127.0.0.1 GET dscjall.com/admin/moneylog/index.html?type=agent&spm=m-5-75-78
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T10:46:12+08:00 ] 127.0.0.1 GET dscjall.com/admin/auth/index.html?spm=m-1-8-12
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T10:46:23+08:00 ] 127.0.0.1 GET dscjall.com/admin/auth/index.html?spm=m-1-8-12
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T10:55:49+08:00 ] 127.0.0.1 GET dscjall.com/admin/log/index.html?spm=m-1-9-15
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T10:56:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/log/index.html?spm=m-1-9-15
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T10:56:33+08:00 ] 127.0.0.1 GET dscjall.com/admin/log/index.html?spm=m-1-9-15
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T10:57:25+08:00 ] 127.0.0.1 GET dscjall.com/admin/menu/index.html?spm=m-1-7-10
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T10:57:31+08:00 ] 127.0.0.1 GET dscjall.com/admin/menu/index.html?spm=m-1-7-10
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:30:58+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:30:59+08:00 ] 127.0.0.1 GET dscjall.com/admin/article/index.html?spm=m-68-69-70
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_article' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:34:26+08:00 ] 127.0.0.1 GET dscjall.com/admin/total/index.html?spm=m-7-77-144
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_use_order' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:34:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:34:31+08:00 ] 127.0.0.1 GET dscjall.com/admin/article/index.html?spm=m-68-69-70
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_article' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:36:40+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:36:42+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:36:44+08:00 ] 127.0.0.1 GET dscjall.com/admin/article/index.html?spm=m-68-69-70
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_article' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:36:48+08:00 ] 127.0.0.1 GET dscjall.com/admin/article/index.html?spm=m-68-69-70
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_article' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:37:24+08:00 ] 127.0.0.1 GET dscjall.com/admin/article/index.html?spm=m-68-69-70
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_article' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:38:21+08:00 ] 127.0.0.1 GET dscjall.com/admin/article/index.html?spm=m-68-69-70
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_article' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:38:27+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:38:34+08:00 ] 127.0.0.1 GET dscjall.com/admin/bank/index.html?spm=m-73-81-82
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_banks' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:39:37+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:39:39+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:40:02+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:40:05+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T11:40:10+08:00 ] 127.0.0.1 GET dscjall.com/admin/level/index.html?spm=m-43-44-111
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:11:45+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:26:22+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:26:26+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:40:17+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [8]未定义变量: db_config[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Member.php:50]
+---------------------------------------------------------------
+[ 2019-06-18T15:41:00+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_fbmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:43:59+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:50:24+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:50:25+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:50:26+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:50:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:50:45+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [2]Missing argument 1 for getMemberLevel(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\9f2a49c364e82be2652cd80fcaf80e09.php on line 57 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:513]
+---------------------------------------------------------------
+[ 2019-06-18T15:50:48+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [2]Missing argument 1 for getMemberLevel(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\9f2a49c364e82be2652cd80fcaf80e09.php on line 57 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:513]
+---------------------------------------------------------------
+[ 2019-06-18T15:52:03+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [2]Missing argument 1 for getMemberLevel(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\9f2a49c364e82be2652cd80fcaf80e09.php on line 57 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:513]
+---------------------------------------------------------------
+[ 2019-06-18T15:52:04+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [2]Missing argument 1 for getMemberLevel(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\9f2a49c364e82be2652cd80fcaf80e09.php on line 57 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:513]
+---------------------------------------------------------------
+[ 2019-06-18T15:52:05+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [2]Missing argument 1 for getMemberLevel(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\9f2a49c364e82be2652cd80fcaf80e09.php on line 57 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:513]
+---------------------------------------------------------------
+[ 2019-06-18T15:52:17+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [2]Missing argument 1 for getMemberLevel(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\9f2a49c364e82be2652cd80fcaf80e09.php on line 57 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:513]
+---------------------------------------------------------------
+[ 2019-06-18T15:53:25+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [2]Missing argument 1 for getMemberLevel(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\9f2a49c364e82be2652cd80fcaf80e09.php on line 57 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:513]
+---------------------------------------------------------------
+[ 2019-06-18T15:54:12+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:55:35+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [8]未定义变量: fbmember[C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\9f2a49c364e82be2652cd80fcaf80e09.php:80]
+---------------------------------------------------------------
+[ 2019-06-18T15:57:44+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [0]致命错误: Cannot access protected property think\db\Query::$name[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:494]
+---------------------------------------------------------------
+[ 2019-06-18T15:58:33+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj_1.dy_allmember' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T15:58:58+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45&phone=&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000002
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'dscj_2'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2019-06-18T15:59:04+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45&phone=&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000002
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'dscj_2'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2019-06-18T16:00:42+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45&phone=&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000003
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:01:57+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/index.html?spm=m-43-44-45&phone=&realname=&realnameStatus=&level=&regTime=&allmemberId=1000000003
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:02:32+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/downrecommend.html?id=13&spm=m-43-44-45&open_type=modal
+[ error ] [8]未定义变量: db_config[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Member.php:247]
+---------------------------------------------------------------
+[ 2019-06-18T16:02:43+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/recommend.html?id=13&spm=m-43-44-45&open_type=modal
+[ error ] [8]未定义变量: db_config[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Member.php:226]
+---------------------------------------------------------------
+[ 2019-06-18T16:22:37+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/downrecommend.html?id=84&allmemberId=1000000001&spm=m-43-44-45&open_type=modal
+[ error ] [2]Missing argument 2 for getMemberLevelName(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\8b465e69c9a67d86f889be4165781eb7.php on line 29 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:523]
+---------------------------------------------------------------
+[ 2019-06-18T16:22:39+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/downrecommend.html?id=84&allmemberId=1000000001&spm=m-43-44-45&open_type=modal
+[ error ] [2]Missing argument 2 for getMemberLevelName(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\8b465e69c9a67d86f889be4165781eb7.php on line 29 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:523]
+---------------------------------------------------------------
+[ 2019-06-18T16:22:44+08:00 ] 127.0.0.1 GET dscjall.com/admin/member/downrecommend.html?id=84&allmemberId=1000000001&spm=m-43-44-45&open_type=modal
+[ error ] [2]Missing argument 2 for getMemberLevelName(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\8b465e69c9a67d86f889be4165781eb7.php on line 29 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:523]
+---------------------------------------------------------------
+[ 2019-06-18T16:33:59+08:00 ] 127.0.0.1 GET dscjall.com/admin/group/money.html?spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_group_money' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:35:01+08:00 ] 127.0.0.1 GET dscjall.com/admin/group/money.html?spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_group_money' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:36:02+08:00 ] 127.0.0.1 GET dscjall.com/admin/group/money.html?spm=m-43-44-143
+[ error ] [2]Missing argument 2 for getMember(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\b4b214948d7c52d56f19745a62c35b56.php on line 108 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:493]
+---------------------------------------------------------------
+[ 2019-06-18T16:36:21+08:00 ] 127.0.0.1 GET dscjall.com/admin/group/money.html?spm=m-43-44-143
+[ error ] [2]Missing argument 2 for getMember(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\b4b214948d7c52d56f19745a62c35b56.php on line 108 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:493]
+---------------------------------------------------------------
+[ 2019-06-18T16:38:08+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:38:50+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:39:25+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:39:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:39:37+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:46:28+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:46:35+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:46:41+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:47:23+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:47:34+08:00 ] 127.0.0.1 GET dscjall.com/admin/group/money.html?spm=m-43-44-143
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\Group::assing()[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Group.php:57]
+---------------------------------------------------------------
+[ 2019-06-18T16:47:37+08:00 ] 127.0.0.1 GET dscjall.com/admin/group/money.html?spm=m-43-44-143
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\Group::assing()[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Group.php:57]
+---------------------------------------------------------------
+[ 2019-06-18T16:47:42+08:00 ] 127.0.0.1 GET dscjall.com/admin/group/money.html?spm=m-43-44-143
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\Group::assing()[C:\phpStudy\PHPTutorial\WWW\dscjall\application\admin\controller\Group.php:57]
+---------------------------------------------------------------
+[ 2019-06-18T16:48:33+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=0&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:48:46+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-116
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:54:52+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-116
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:55:39+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=0&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:58:42+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=0&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:58:55+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=0&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T16:59:24+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=1000000001&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:00:15+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=1000000001&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:00:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?allmemberId=1000000001&spm=m-43-44-143
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:05:55+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-116
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:06:40+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-116
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_achievement' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:25:14+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-116
+[ error ] [2]Missing argument 2 for getMember(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\33b4d67503115e0794133dc08030b588.php on line 110 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:493]
+---------------------------------------------------------------
+[ 2019-06-18T17:25:24+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-116
+[ error ] [2]Missing argument 2 for getMember(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\33b4d67503115e0794133dc08030b588.php on line 110 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:493]
+---------------------------------------------------------------
+[ 2019-06-18T17:25:29+08:00 ] 127.0.0.1 GET dscjall.com/admin/achievement/index.html?spm=m-43-44-116
+[ error ] [2]Missing argument 2 for getMember(), called in C:\phpStudy\PHPTutorial\WWW\dscjall\runtime\temp\33b4d67503115e0794133dc08030b588.php on line 110 and defined[C:\phpStudy\PHPTutorial\WWW\dscjall\application\common.php:493]
+---------------------------------------------------------------
+[ 2019-06-18T17:26:37+08:00 ] 127.0.0.1 GET dscjall.com/admin/levellog/index.html?spm=m-43-44-117
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_levellog' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:26:57+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:31:35+08:00 ] 127.0.0.1 GET dscjall.com/admin/levellog/index.html?spm=m-43-44-117
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_levellog' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:31:38+08:00 ] 127.0.0.1 GET dscjall.com/admin/levellog/index.html?spm=m-43-44-117
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_levellog' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:38:16+08:00 ] 127.0.0.1 GET dscjall.com/admin/moneylog/index.html?spm=m-43-44-47
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:41:22+08:00 ] 127.0.0.1 GET dscjall.com/admin/cash/index.html?spm=m-43-44-46
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:42:27+08:00 ] 127.0.0.1 GET dscjall.com/admin/cash/index.html?spm=m-43-44-46
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:49:20+08:00 ] 127.0.0.1 GET dscjall.com/admin/creditcard/index.html?spm=m-43-44-48
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:51:20+08:00 ] 127.0.0.1 GET dscjall.com/admin/points/index.html?spm=m-43-44-147
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_pointslog' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:54:24+08:00 ] 127.0.0.1 GET dscjall.com/admin/level/index.html?spm=m-43-44-111
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:55:53+08:00 ] 127.0.0.1 GET dscjall.com/admin/level/cost.html?id=8&spm=m-43-44-111&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T17:57:55+08:00 ] 127.0.0.1 GET dscjall.com/admin/level/cost.html?id=8&allmemberId=1000000001&spm=m-43-44-111&open_type=modal
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_member_level' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:00:36+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:00:41+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:01:12+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:09:44+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:09:55+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:09:58+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:15:07+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:15:33+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:15:38+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:16:00+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:17:49+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:19:05+08:00 ] 127.0.0.1 GET dscjall.com/admin/order/index.html?spm=m-146-153-155
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dscj.dy_orders' doesn't exist[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2019-06-18T18:25:10+08:00 ] 127.0.0.1 GET dscjall.com/admin/repayment/running.html?spm=m-146-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.dataFlag' in 'where clause'[C:\phpStudy\PHPTutorial\WWW\dscjall\thinkphp\library\think\db\Connection.php:699]

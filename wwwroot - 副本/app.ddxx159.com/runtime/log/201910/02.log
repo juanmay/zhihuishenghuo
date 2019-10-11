@@ -1,0 +1,375 @@
+---------------------------------------------------------------
+[ 2019-10-02T04:56:02+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[运行时间：0.702379s] [吞吐率：1.42req/s] [内存消耗：3,056.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-02T05:21:54+08:00 ] 47.101.191.214 GET dscjall.diyunkeji.com/
+[运行时间：0.162988s] [吞吐率：6.14req/s] [内存消耗：3,055.51kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-02T05:21:55+08:00 ] 47.101.191.214 GET dscjall.diyunkeji.com/admin/login.html
+[运行时间：0.268174s] [吞吐率：3.73req/s] [内存消耗：3,263.77kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'dscjall.diyunkeji.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-02T05:46:19+08:00 ] 47.101.191.214 GET app.ddxx159.com/
+[运行时间：0.183890s] [吞吐率：5.44req/s] [内存消耗：3,055.47kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-02T05:46:19+08:00 ] 47.101.191.214 GET app.ddxx159.com/admin/login.html
+[运行时间：0.383914s] [吞吐率：2.60req/s] [内存消耗：3,263.73kb] [文件加载：77]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\app.ddxx159.com\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2019-10-02T09:31:48+08:00 ] 183.17.60.197 GET app.ddxx159.com/index/common/register/code/2WRQay.html
+[运行时间：0.205887s] [吞吐率：4.86req/s] [内存消耗：2,945.90kb] [文件加载：76]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '2WRQay',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-02T14:38:34+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/user/index
+[运行时间：0.015986s] [吞吐率：62.55req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:34+08:00 ] 113.88.171.212 GET app.ddxx159.com/api/index/version?version=1.0.3
+[运行时间：0.013288s] [吞吐率：75.26req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:35+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/user/index
+[运行时间：0.013170s] [吞吐率：75.93req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:36+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/index/index
+[运行时间：0.017417s] [吞吐率：57.42req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:36+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/index/index
+[运行时间：0.017511s] [吞吐率：57.11req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:39+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013688s] [吞吐率：73.06req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:42+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013457s] [吞吐率：74.31req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:52+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013785s] [吞吐率：72.54req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:53+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013206s] [吞吐率：75.72req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:59+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/user/index
+[运行时间：0.014890s] [吞吐率：67.16req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:59+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/index/index
+[运行时间：0.014042s] [吞吐率：71.22req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:38:59+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/user/index
+[运行时间：0.014980s] [吞吐率：66.76req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:00+08:00 ] 113.88.171.212 GET app.ddxx159.com/api/index/version?version=1.0.3
+[运行时间：0.014561s] [吞吐率：68.68req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:00+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/index/index
+[运行时间：0.014666s] [吞吐率：68.18req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:02+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013357s] [吞吐率：74.87req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:19+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013656s] [吞吐率：73.23req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:21+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013271s] [吞吐率：75.35req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:22+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013052s] [吞吐率：76.62req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:26+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013259s] [吞吐率：75.42req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:39+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/user/index
+[运行时间：0.013859s] [吞吐率：72.16req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:39+08:00 ] 113.88.171.212 GET app.ddxx159.com/api/index/version?version=1.0.3
+[运行时间：0.013931s] [吞吐率：71.78req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:39+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/user/index
+[运行时间：0.013611s] [吞吐率：73.47req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:40+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/index/index
+[运行时间：0.014724s] [吞吐率：67.92req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:40+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/index/index
+[运行时间：0.014781s] [吞吐率：67.65req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:43+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013284s] [吞吐率：75.28req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:39:57+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013605s] [吞吐率：73.50req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:40:05+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013669s] [吞吐率：73.16req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:40:06+08:00 ] 113.88.171.212 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013269s] [吞吐率：75.36req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:40:14+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013540s] [吞吐率：73.86req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:40:15+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013291s] [吞吐率：75.24req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:40:29+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013804s] [吞吐率：72.44req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:40:31+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013528s] [吞吐率：73.92req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:40:34+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013373s] [吞吐率：74.78req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:40:38+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.015505s] [吞吐率：64.50req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:43:50+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.015665s] [吞吐率：63.84req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:44:11+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013652s] [吞吐率：73.25req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:44:12+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013418s] [吞吐率：74.53req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T14:44:27+08:00 ] 112.97.249.199 POST app.ddxx159.com/api/register/sms
+[运行时间：0.013690s] [吞吐率：73.05req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T15:58:27+08:00 ] 120.85.87.204 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.015673s] [吞吐率：63.80req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T15:58:27+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/user/index
+[运行时间：0.013669s] [吞吐率：73.16req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T15:58:27+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/user/index
+[运行时间：0.016042s] [吞吐率：62.34req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T15:58:27+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/index/index
+[运行时间：0.016016s] [吞吐率：62.44req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T15:58:28+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/index/index
+[运行时间：0.013254s] [吞吐率：75.45req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T15:58:41+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013629s] [吞吐率：73.37req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T15:58:50+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013620s] [吞吐率：73.42req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:01:29+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/login/sms
+[运行时间：0.015742s] [吞吐率：63.52req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:01:36+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013613s] [吞吐率：73.46req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:01:50+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/index/index
+[运行时间：0.014022s] [吞吐率：71.32req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:01:50+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/index/index
+[运行时间：0.015898s] [吞吐率：62.90req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:01:50+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/user/index
+[运行时间：0.015999s] [吞吐率：62.50req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:01:51+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/user/index
+[运行时间：0.013946s] [吞吐率：71.70req/s] [内存消耗：1,664.79kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:01:51+08:00 ] 120.85.87.204 GET app.ddxx159.com/api/index/version?version=1.0.1
+[运行时间：0.014027s] [吞吐率：71.29req/s] [内存消耗：1,665.68kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:01:55+08:00 ] 120.85.87.204 POST app.ddxx159.com/api/login/sms
+[运行时间：0.013311s] [吞吐率：75.13req/s] [内存消耗：1,664.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T16:35:58+08:00 ] 183.136.190.62 GET app.ddxx159.com/
+[运行时间：0.161684s] [吞吐率：6.18req/s] [内存消耗：3,056.34kb] [文件加载：79]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'app.ddxx159.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-02T21:26:00+08:00 ] 117.188.233.217 GET app.ddxx159.com/index/common/app.html
+[运行时间：0.722760s] [吞吐率：1.38req/s] [内存消耗：2,946.46kb] [文件加载：76]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '117.188.233.217',
+  'x-forwarded-for' => '117.188.233.217',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBBM00 Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044904 Mobile Safari/537.36 MMWEBID/3560 MicroMessenger/7.0.7.1521(0x27000735) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'app.ddxx159.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-10-02T21:26:01+08:00 ] 117.188.233.217 GET app.ddxx159.com/favicon.ico
+[运行时间：0.013297s] [吞吐率：75.21req/s] [内存消耗：1,665.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2019-10-02T21:26:58+08:00 ] 101.89.29.86 GET app.ddxx159.com/index/common/app.html
+[运行时间：0.175860s] [吞吐率：5.69req/s] [内存消耗：2,944.66kb] [文件加载：76]
+[ info ] [ LANG ] D:\wwwroot\app.ddxx159.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'app.ddxx159.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql

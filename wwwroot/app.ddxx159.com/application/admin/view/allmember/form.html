@@ -1,0 +1,235 @@
+<style type="text/css">
+    .layui-form-label {
+        width: 120px;
+    }
+    .layui-input-block {
+        margin-left: 140px;
+    }
+</style>
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">法人手机</label>
+        <div class="layui-input-block">
+            <input type="text" name="phone" value='{$vo.phone|default=""}' required="required" title="请输入平台手机" placeholder="请输入平台手机" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，法人手机，保证手机号的唯一性</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">法人姓名</label>
+        <div class="layui-input-block">
+            <input type="text" name="realname" value='{$vo.realname|default=""}' required="required" title="请输入平台姓名" placeholder="请输入平台姓名" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，法人姓名</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">公司名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="companyName" value='{$vo.companyName|default=""}' required="required" title="请输入平台昵称" placeholder="请输入平台昵称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，公司名称</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">身份证号</label>
+        <div class="layui-input-block">
+            <input type="text" name="idcard" value='{$vo.idcard|default=""}' required="required" title="请输入身份证号" placeholder="请输入身份证号" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，身份证号</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">账户余额</label>
+        <div class="layui-input-block">
+            <input type="text" name="accountMoney" value='{$vo.accountMoney|default=""}' readonly="" title="请输入账户余额" placeholder="请输入账户余额" class="layui-input">
+            <p class="help-block color-desc">平台可提现金额</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">冻结金额</label>
+        <div class="layui-input-block">
+            <input type="text" name="freezeMoney" value='{$vo.freezeMoney|default=""}' readonly="" title="请输入冻结金额" placeholder="请输入冻结金额" class="layui-input">
+            <p class="help-block color-desc">平台提现冻结金额</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">收益金额</label>
+        <div class="layui-input-block">
+            <input type="text" name="bonusMoney" value='{$vo.bonusMoney|default=""}' readonly="" title="请输入收益金额" placeholder="请输入收益金额" class="layui-input">
+            <p class="help-block color-desc">平台累计获得收益分配</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">环讯通道</label>
+        <div class="layui-input-block">
+            <input type="text" name="firstRepaymentRate" value='{$vo.firstRepaymentRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷110002通道</label>
+        <div class="layui-input-block">
+            <input type="text" name="secondRepaymentRate" value='{$vo.secondRepaymentRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷110001通道</label>
+        <div class="layui-input-block">
+            <input type="text" name="thirdRepaymentRate" value='{$vo.thirdRepaymentRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷110003通道</label>
+        <div class="layui-input-block">
+            <input type="text" name="fourthRepaymentRate" value='{$vo.fourthRepaymentRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷小额通道</label>
+        <div class="layui-input-block">
+            <input type="text" name="seventhRepaymentRate" value='{$vo.seventhRepaymentRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">空卡通道</label>
+        <div class="layui-input-block">
+            <input type="text" name="fifthRepaymentRate" value='{$vo.fifthRepaymentRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">一卡还卡通道</label>
+        <div class="layui-input-block">
+            <input type="text" name="sixthRepaymentRate" value='{$vo.sixthRepaymentRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">代还单笔</label>
+        <div class="layui-input-block">
+            <input type="text" name="RepaymentFee" value='{$vo.RepaymentFee|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/笔</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷收款</label>
+        <div class="layui-input-block">
+            <input type="text" name="cjQuickRate" value='{$vo.cjQuickRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">易宝收款</label>
+        <div class="layui-input-block">
+            <input type="text" name="ybQuickRate" value='{$vo.ybQuickRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+	<!-- <div class="layui-form-item">
+        <label class="layui-form-label">先锋收款</label>
+        <div class="layui-input-block">
+            <input type="text" name="firstQuickRate" value='{$vo.firstQuickRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div> -->
+    <!-- <div class="layui-form-item">
+        <label class="layui-form-label">畅捷收款1</label>
+        <div class="layui-input-block">
+            <input type="text" name="secondQuickRate" value='{$vo.secondQuickRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷收款2</label>
+        <div class="layui-input-block">
+            <input type="text" name="thirdQuickRate" value='{$vo.thirdQuickRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">畅捷收款3</label>
+        <div class="layui-input-block">
+            <input type="text" name="fourthQuickRate" value='{$vo.fourthQuickRate|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/万元</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div> -->
+    <div class="layui-form-item">
+        <label class="layui-form-label">收款单笔</label>
+        <div class="layui-input-block">
+            <input type="text" name="QuickFee" value='{$vo.QuickFee|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/笔</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">二要素鉴权</label>
+        <div class="layui-input-block">
+            <input type="text" name="twoVerify" value='{$vo.twoVerify|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/笔</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">四要素鉴权</label>
+        <div class="layui-input-block">
+            <input type="text" name="fourVerify" value='{$vo.fourVerify|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/笔</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">最小提现金额</label>
+        <div class="layui-input-block">
+            <input type="text" name="cashMinMoney" value='{$vo.cashMinMoney|default=""}' required="required" title="请输入最小提现金额" placeholder="请输入最小提现金额" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/笔</b>，用户使用软件时的最小提现金额</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">最大提现金额</label>
+        <div class="layui-input-block">
+            <input type="text" name="cashMaxMoney" value='{$vo.cashMaxMoney|default=""}' required="required" title="请输入最大提现金额" placeholder="请输入最大提现金额" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/笔</b>，用户使用软件时的最大提现金额</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">提现单笔手续费</label>
+        <div class="layui-input-block">
+            <input type="text" name="memberCashFee" value='{$vo.memberCashFee|default=""}' required="required" title="请输入费率成本" placeholder="请输入费率成本" class="layui-input">
+            <p class="help-block color-desc"><b>必填，元/笔</b>，用户使用软件时的费率与此成本差奖励给平台</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="layui-form-label">审核状态</label>
+        <div class='col-sm-8'>
+            <?php  if (!isset($vo['status'])) { $vo['status'] = '1'; } ?>
+            {foreach ['1'=>'正常','2'=>'禁用'] as $k=>$v}
+            <label class="think-radio">
+                <!--{if $vo['status'] eq $k}-->
+                <input checked type="radio" name="status" value="{$k}" title="{$v}" lay-ignore>
+                <!--{else}-->
+                <input type="radio" name="status" value="{$k}" title="{$v}" lay-ignore>
+                <!--{/if}-->
+                {$v}
+            </label>
+            {/foreach}
+            <p class="help-block">品牌端是否可以登录使用。</p>
+        </div>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="layui-form-item text-center">
+        {if isset($vo['id'])}<input type='hidden' value='{$vo.id|default="0"}' name='id' id='id'>{/if}
+        {if !isset($vo['id'])}<input type='hidden' value='{$Think.session.user.id}' name='fid' id='fid'>{/if}
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消编辑吗？" data-close>取消编辑</button>
+    </div>
+</form>
